@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow:hidden">
+  <head>
+    <!-- Basics -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Map</title>
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    <!-- For Facebook / Opengraph -->
+    <meta property="og:title" content="Magic Map" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://dndmagicmap.com/siteicon.png" />
+    <meta property="og:description" content="Magic Map" />
+    <meta property="og:url" content="http://dndmagicmap.com" />
+    <meta property="og:site_name" content="Magic Map" /> 
+    
+    <!-- Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/font-face/entypo.css" type="text/css" />
+    
+    <!-- Styles  -->
+    <link rel="stylesheet" href="/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    
+    <!-- Scripts -->
+    <script src="/js/tweenmax.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/crafty_max.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114216700-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-114216700-1');
+    </script>
+    <script type="text/javascript">
+      var craftyInit = false;
+      var particleFx = new Array();
+      
+      function initializeCanvas(newWidth, newHeight, craftyInit) {
+        $('.splashparticlesscreen_big').css({'width':newWidth*103, 'height':newHeight*103});
+        $('#splashparticles_big').css({'width':newWidth*103, 'height':newHeight*103});
+        if (!craftyInit) {
+          Crafty.init(newWidth*103, newHeight*103, $('#splashparticles_big')[0]);
+          craftyInit = true;
+        }
+        else {
+          Crafty.viewport.width = newWidth*103;
+          Crafty.viewport.height = newHeight*103;
+          Crafty.viewport.reload();
+        }
+      }
+      
+      function createParticleFx(options, squareId, isSticky, duration, x, y, xs, ys, isMissile) {
+        var fx = Crafty.e("2D,Canvas,Particles").particles(options);
+        if (isSticky) particleFx.push({'xy':squareId,'fx':fx});
+        else setTimeout(function() { fx.destroy(); }, duration); 
+        return fx;
+      }
+      
+      function clearParticleFxAt(xy) {
+        for (i = particleFx.length - 1; i > -1; i--) {
+          if (particleFx[i]['xy'] == xy) {
+            particleFx[i]['fx'].destroy();
+            particleFx.splice(i, 1);
+          }
+        }
+      }
+      
+      function initializeSquares(width, height) {  
+        
+        // Remove any old map squares
+        $('.mapsquare_big').remove();
+        
+        // Add new map squares
+        var alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+        for(j = 0; j < height; j++) {
+          for(i = 1; i <= width; i++) { 
+            $('.map_big').append('<div class="mapsquare_big" id="' + alphabet.charAt(j) + '_' + i + '"></div>');
+          }
+        }
+      }
+      
+      function createEffect(effectId, theclass, x, y) {
+        $('.map_big').append('<div id="' + effectId + '" class="' + theclass +'" style="left:' + x*103 + 'px;top:'+ y*103 + 'px;"></div>');
+      }
+      
+      function removeEffect(effectId) {
+        $('#' + effectId).remove(); 
+      }
+      
+      function removeAllEffects() {
+        $('.effect').remove(); 
+        for (i = particleFx.length - 1; i > -1; i--) {
+          particleFx[i]['fx'].destroy();
+          particleFx.splice(i, 1);
+        }
+      }
+
+    </script>
+  </head>
+  <body class="magicmapbody">
+    <div class="fullscreen">
+      <div class="mapcontainer_big">
+        <div class="splashimagescreen_big">
+          <div id="splashimage_big"></div>
+        </div>
+        <div class="splashmonsterscreen_big">
+          <div id="splashmonster_big"></div>
+        </div>
+        <div class="splashvideoscreen_big">
+          <video id="splashvideo_big">
+            <source id="splashvideosource_big" type="video/mp4">
+          </video>
+        </div>
+        <div class="map_big">
+          <div class="splashparticlesscreen_big">
+            <div id="splashparticles_big"></div>
+          </div>
+          <div class="source_big"></div>
+          <div class="target_big"></div>
+          <div class="range_big"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

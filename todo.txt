@@ -1,0 +1,31 @@
+TO DO
+-----
+0) Add rotation to adjustment
+1) Hook up firebase for accounts (fb?) / JSON storage
+2) Full admin screen instead of JSON for customize
+3) Make a video guide
+4) Enable video maps https://www.patreon.com/dynamicdungeons
+5) Map store for dynamic dungeons & mike schley
+6) More TV resolutions 1920x1080
+7) Try youtube links for vids
+8) Presets on map with json and autorecord system
+
+LATER
+------------
+- Make an erase cursor, maybe a blue circle
+- Test lowercase letters on superwide maps
+- Nice background music playlist
+- More spell areas (circles & lines)
+- Checkbox next to spell/attack dropdowns for special crit video
+- Test Chromium/Linux, Firefox, Safari
+- Scrape all spells & use standardized animations
+- Monster token sizes
+- Digital initiative
+- Deconstruct the animation json parser from RPG maker
+- Player accounts / tokens
+- Remote TV
+
+
+
+
+

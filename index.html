@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basics -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagicMap</title>
+    <link rel="shortcut icon" href="/favicon.png">
+
+    <!-- For Facebook / Opengraph -->
+    <meta property="og:title" content="Magic Map" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://dndmagicmap.com/siteicon.png" />
+    <meta property="og:description" content="Magic Map" />
+    <meta property="og:url" content="http://dndmagicmap.com" />
+    <meta property="og:site_name" content="Magic Map" />
+
+    <!-- Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/font-face/entypo.css" type="text/css" />
+
+    <!-- Styles  -->
+    <link rel="stylesheet" href="/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114216700-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-114216700-1');
+    </script>
+    <script type="text/javascript">
+      function openWindows() {
+        window.location.replace('http://dndmagicmap.com/dashboard');
+      }
+    </script>
+  </head>
+  <body>
+    <div class="hero-top">
+      <a href="#" class="social">&#62217;</a>
+      <a href="#" class="social">&#62220;</a>
+      <a href="#" class="social">&#62253;</a>
+    </div>
+    <div class="logo_middle">
+      <div class="logo_home"></div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="homecontent">
+      <div> 
+        TV Size: 
+        <select class="actionselect" id="select_tvsize">
+          <option value="3840x2160">3840 x 2160 px</option>
+        </select>
+        <div>(make sure popups are enabled)</div>
+      </div>
+      <a href="#" class="button" id="launchbutton" onclick="openWindows();">LAUNCH MAGIC MAP</a>
+    </div>
+    <footer>
+      <div class="container">
+        <p class="fineprint">
+          Open Source 2018 <span class="bull">&bull;</span>
+          Created by Dan Sutera <span class="bull">&bull;</span>
+          Brooklyn, NY <span class="bull">&bull;</span>
+      		Map Design by <a href="http://prints.mikeschley.com/">Mike Schley</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

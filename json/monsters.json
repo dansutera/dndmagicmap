@@ -1,0 +1,2747 @@
+[
+ {
+   "name": "Aarakocra",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/442/1000/1000/636306375308939571.jpeg"
+ },
+ {
+   "name": "Aboleth",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/11/1000/1000/636238825975375671.jpeg"
+ },
+ {
+   "name": "Acererak",
+   "challenge": 23,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/788/1000/1000/636395106768946324.png"
+ },
+ {
+   "name": "Adult Black Dragon",
+   "challenge": 14,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/13/1000/1000/636238871029832086.jpeg"
+ },
+ {
+   "name": "Adult Blue Dracolich",
+   "challenge": 17,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/607/1000/1000/636312366325670491.jpeg"
+ },
+ {
+   "name": "Adult Blue Dragon",
+   "challenge": 16,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/16/1000/1000/636238882493439723.jpeg"
+ },
+ {
+   "name": "Adult Brass Dragon",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/18/1000/1000/636238885681129014.jpeg"
+ },
+ {
+   "name": "Adult Bronze Dragon",
+   "challenge": 15,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/20/1000/1000/636238888310108665.jpeg"
+ },
+ {
+   "name": "Adult Copper Dragon",
+   "challenge": 14,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/22/1000/1000/636238956325913912.jpeg"
+ },
+ {
+   "name": "Adult Gold Dragon",
+   "challenge": 17,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/24/1000/1000/636238958915127190.jpeg"
+ },
+ {
+   "name": "Adult Green Dragon",
+   "challenge": 15,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/26/1000/1000/636238962276510242.jpeg"
+ },
+ {
+   "name": "Adult Red Dragon",
+   "challenge": 17,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/28/1000/1000/636238971817119794.jpeg"
+ },
+ {
+   "name": "Adult Silver Dragon",
+   "challenge": 16,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/123/1000/1000/636252753945133025.jpeg"
+ },
+ {
+   "name": "Adult White Dragon",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/125/1000/1000/636252755468117001.jpeg"
+ },
+ {
+   "name": "Aerisi Kalinoth",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/316/1000/1000/636372268396235934.png"
+ },
+ {
+   "name": "Air Elemental",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/127/1000/1000/636252755648556800.jpeg"
+ },
+ {
+   "name": "Air Elemental Myrmidon",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/349/1000/1000/636372274233290491.png"
+ },
+ {
+   "name": "Albino Dwarf Warrior",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/735/1000/1000/636395096814025531.png"
+ },
+ {
+   "name": "Aldani (Lobsterfolk)",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/738/1000/1000/636395097043050587.png"
+ },
+ {
+   "name": "Alhoon",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/743/1000/1000/636331255609785256.jpeg"
+ },
+ {
+   "name": "Almiraj",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png"
+ },
+ {
+   "name": "Ambush Drake",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/460/1000/1000/636373111573083204.png"
+ },
+ {
+   "name": "Ancient Black Dragon",
+   "challenge": 21,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/129/1000/1000/636252755854649337.jpeg"
+ },
+ {
+   "name": "Ancient Blue Dragon",
+   "challenge": 23,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/131/1000/1000/636252756020185006.jpeg"
+ },
+ {
+   "name": "Ancient Brass Dragon",
+   "challenge": 20,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/133/1000/1000/636252756157427258.jpeg"
+ },
+ {
+   "name": "Ancient Bronze Dragon",
+   "challenge": 22,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/135/1000/1000/636252756372367681.jpeg"
+ },
+ {
+   "name": "Ancient Copper Dragon",
+   "challenge": 21,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/137/1000/1000/636252756714896878.jpeg"
+ },
+ {
+   "name": "Ancient Gold Dragon",
+   "challenge": 24,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/139/1000/1000/636252756930565101.jpeg"
+ },
+ {
+   "name": "Ancient Green Dragon",
+   "challenge": 22,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/141/1000/1000/636252757319464533.jpeg"
+ },
+ {
+   "name": "Ancient Red Dragon",
+   "challenge": 24,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/147/1000/1000/636252758629652181.jpeg"
+ },
+ {
+   "name": "Ancient Silver Dragon",
+   "challenge": 23,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/151/1000/1000/636252758799225927.jpeg"
+ },
+ {
+   "name": "Ancient White Dragon",
+   "challenge": 20,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/153/1000/1000/636252758955886210.jpeg"
+ },
+ {
+   "name": "Androsphinx",
+   "challenge": 17,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/157/1000/1000/636252759145617281.jpeg"
+ },
+ {
+   "name": "Animated Armor",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/429/1000/1000/636306156895834255.jpeg"
+ },
+ {
+   "name": "Ankheg",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/161/1000/1000/636252759871983921.jpeg"
+ },
+ {
+   "name": "Annis Hag",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/697/1000/1000/636330473468176181.jpeg"
+ },
+ {
+   "name": "Apprentice Wizard",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/843/1000/1000/636332311073165771.jpeg"
+ },
+ {
+   "name": "Arcanaloth",
+   "challenge": 12,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/613/1000/1000/636312415807998733.jpeg"
+ },
+ {
+   "name": "Archer",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/845/1000/1000/636332321416608288.jpeg"
+ },
+ {
+   "name": "Archmage",
+   "challenge": 12,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/167/1000/1000/636252760213195530.jpeg"
+ },
+ {
+   "name": "Artus Cimber",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/743/1000/1000/636395097479889039.png"
+ },
+ {
+   "name": "Assassin",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/910/1000/1000/636334293020978804.png"
+ },
+ {
+   "name": "Atropal",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/745/1000/1000/636395097675055911.png"
+ },
+ {
+   "name": "Augrek Brighthelm",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/233/1000/1000/636371821018987372.png"
+ },
+ {
+   "name": "Aurochs",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/839/1000/1000/636332242296676823.jpeg"
+ },
+ {
+   "name": "Azbara Jos",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/462/1000/1000/636373128980172491.png"
+ },
+ {
+   "name": "Azbara Jos",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/462/1000/1000/636373128980172491.png"
+ },
+ {
+   "name": "Azer",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/171/1000/1000/636252761112348397.jpeg"
+ },
+ {
+   "name": "Azer",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/171/1000/1000/636252761112348397.jpeg"
+ },
+ {
+   "name": "Baba Lysaga",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/334/1000/1000/636379873620950408.png"
+ },
+ {
+   "name": "Baba Lysaga Creeping Hut",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/337/1000/1000/636379876219796369.png"
+ },
+ {
+   "name": "Babau",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/617/1000/1000/636329612473428943.jpeg"
+ },
+ {
+   "name": "Badger",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/528/1000/1000/636376327632236333.jpeg"
+ },
+ {
+   "name": "Balor",
+   "challenge": 19,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/175/1000/1000/636252761612038117.jpeg"
+ },
+ {
+   "name": "Banderhobb",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/521/1000/1000/636328809555262976.jpeg"
+ },
+ {
+   "name": "Bandit Captain",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/181/1000/1000/636252761965117015.jpeg"
+ },
+ {
+   "name": "Banshee",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/446/1000/1000/636306384206418474.jpeg"
+ },
+ {
+   "name": "Baphomet",
+   "challenge": 23,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/7/1000/1000/636369569074858823.png"
+ },
+ {
+   "name": "Barbed Devil",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/486/1000/1000/636376302569423870.jpeg"
+ },
+ {
+   "name": "Bard",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/847/1000/1000/636332330771969456.jpeg"
+ },
+ {
+   "name": "Barghest",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/523/1000/1000/636328823544998775.jpeg"
+ },
+ {
+   "name": "Barlgura",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/615/1000/1000/636312429974414660.jpeg"
+ },
+ {
+   "name": "Barovian Witch",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/341/1000/1000/636379876850421049.png"
+ },
+ {
+   "name": "Basilisk",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/185/1000/1000/636252762168821795.jpeg"
+ },
+ {
+   "name": "Bat",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/305/1000/1000/636379812593010967.jpeg"
+ },
+ {
+   "name": "Bearded Devil",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/193/1000/1000/636252763397604505.jpeg"
+ },
+ {
+   "name": "Behir",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/195/1000/1000/636252763748680024.jpeg"
+ },
+ {
+   "name": "Beholder",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/717/1000/1000/636288206263978085.jpeg"
+ },
+ {
+   "name": "Beholder Zombie",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/630/1000/1000/636313049146959852.jpeg"
+ },
+ {
+   "name": "Beldora",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/241/1000/1000/636371838228443785.png"
+ },
+ {
+   "name": "Bheur Hag",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/699/1000/1000/636330482099205159.jpeg"
+ },
+ {
+   "name": "Black Dragon Wyrmling",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/496/1000/1000/636376308217017511.jpeg"
+ },
+ {
+   "name": "Black Earth Guard",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/319/1000/1000/636372268847213024.png"
+ },
+ {
+   "name": "Black Pudding",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/201/1000/1000/636252764027417823.jpeg"
+ },
+ {
+   "name": "Blagothkus",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/479/1000/1000/636373140159032435.png"
+ },
+ {
+   "name": "Blink Dog",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/205/1000/1000/636252764168652859.jpeg"
+ },
+ {
+   "name": "Blue Dragon Wyrmling",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/209/1000/1000/636252764637244026.jpeg"
+ },
+ {
+   "name": "Blue Guard Drake",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/692/1000/1000/636330455263840874.jpeg"
+ },
+ {
+   "name": "Blue Slaad",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/635/1000/1000/636313148665294679.jpeg"
+ },
+ {
+   "name": "Bodak",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/592/1000/1000/636329509314576315.jpeg"
+ },
+ {
+   "name": "Boggle",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/594/1000/1000/636329509694817521.jpeg"
+ },
+ {
+   "name": "Bone Devil",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/481/1000/1000/636328225187253200.jpeg"
+ },
+ {
+   "name": "Bone Naga",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/656/1000/1000/636313361437120363.jpeg"
+ },
+ {
+   "name": "Brass Dragon Wyrmling",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/215/1000/1000/636252764963208954.jpeg"
+ },
+ {
+   "name": "Brontosaurus",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/307/1000/1000/636379819282510892.jpeg"
+ },
+ {
+   "name": "Bronze Dragon Wyrmling",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/492/1000/1000/636376306909593829.jpeg"
+ },
+ {
+   "name": "Bugbear",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/221/1000/1000/636252765234633232.jpeg"
+ },
+ {
+   "name": "Bulette",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/223/1000/1000/636252765369632881.jpeg"
+ },
+ {
+   "name": "Bullywug",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/658/1000/1000/636313385791989778.jpeg"
+ },
+ {
+   "name": "Burrowshark",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/321/1000/1000/636372269132067061.png"
+ },
+ {
+   "name": "Cambion",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/781/1000/1000/636318470029195376.jpeg"
+ },
+ {
+   "name": "Captain Othelstan",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/475/1000/1000/636373136930739621.png"
+ },
+ {
+   "name": "Carrion Crawler",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/804/1000/1000/636319242380108746.jpeg"
+ },
+ {
+   "name": "Catoblepas",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/596/1000/1000/636329510074607286.jpeg"
+ },
+ {
+   "name": "Cave Fisher",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/598/1000/1000/636329510367516471.jpeg"
+ },
+ {
+   "name": "Centaur",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/227/1000/1000/636252765573266420.jpeg"
+ },
+ {
+   "name": "Centaur Mummy",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/599/1000/1000/636376371278442704.png"
+ },
+ {
+   "name": "Chain Devil",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/235/1000/1000/636252766618069332.jpeg"
+ },
+ {
+   "name": "Champion",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/854/1000/1000/636332892672500355.jpeg"
+ },
+ {
+   "name": "Chasme",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/808/1000/1000/636319262852869119.jpeg"
+ },
+ {
+   "name": "Chimera",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/237/1000/1000/636252766770156389.jpeg"
+ },
+ {
+   "name": "Chitine",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/588/1000/1000/636329508222056035.jpeg"
+ },
+ {
+   "name": "Choker",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/311/1000/1000/636363342558570735.png"
+ },
+ {
+   "name": "Choldrith",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/600/1000/1000/636329515610051032.jpeg"
+ },
+ {
+   "name": "Chuul",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/241/1000/1000/636252767122656355.jpeg"
+ },
+ {
+   "name": "Chwinga",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/747/1000/1000/636395097900725453.png"
+ },
+ {
+   "name": "Clay Golem",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/243/1000/1000/636252767318152303.jpeg"
+ },
+ {
+   "name": "Cloaker",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/245/1000/1000/636252767458838228.jpeg"
+ },
+ {
+   "name": "Cloud Giant",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/249/1000/1000/636252767619414260.jpeg"
+ },
+ {
+   "name": "Cloud Giant Smiling One",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/639/1000/1000/636329691922934653.jpeg"
+ },
+ {
+   "name": "Cockatrice",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/251/1000/1000/636252767744669874.jpeg"
+ },
+ {
+   "name": "Copper Dragon Wyrmling",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/255/1000/1000/636252768002215182.jpeg"
+ },
+ {
+   "name": "Couatl",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/257/1000/1000/636252768143323827.jpeg"
+ },
+ {
+   "name": "Crag Cat",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/13/142/1000/1000/636357409885255293.png"
+ },
+ {
+   "name": "Cranium Rat",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/603/1000/1000/636329531773797524.jpeg"
+ },
+ {
+   "name": "Crawling Claw",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/806/1000/1000/636319248208603153.jpeg"
+ },
+ {
+   "name": "Crushing Wave Reaver",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/335/1000/1000/636372271445914560.png"
+ },
+ {
+   "name": "Cult Fanatic",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/259/1000/1000/636252768307230924.jpeg"
+ },
+ {
+   "name": "Cultist",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/481/1000/1000/636364323106021375.png"
+ },
+ {
+   "name": "Cyclops",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/470/1000/1000/636376290137285130.jpeg"
+ },
+ {
+   "name": "Dao",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/813/1000/1000/636319293593764332.jpeg"
+ },
+ {
+   "name": "Darathra Shendrel",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/265/1000/1000/636371909647238719.png"
+ },
+ {
+   "name": "Darkling",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/608/1000/1000/636329547726390410.jpeg"
+ },
+ {
+   "name": "Darkling Elder",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/610/1000/1000/636329554490829094.jpeg"
+ },
+ {
+   "name": "Darkmantle",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/263/1000/1000/636252768676699519.jpeg"
+ },
+ {
+   "name": "Darz Helgar",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/269/1000/1000/636371927504487668.png"
+ },
+ {
+   "name": "Death Dog",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/265/1000/1000/636252768823194310.jpeg"
+ },
+ {
+   "name": "Death Kiss",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/528/1000/1000/636328829954764277.jpeg"
+ },
+ {
+   "name": "Death Knight",
+   "challenge": 17,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/742/1000/1000/636317394428894803.jpeg"
+ },
+ {
+   "name": "Death Slaad",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/641/1000/1000/636313178886689718.jpeg"
+ },
+ {
+   "name": "Death Tyrant",
+   "challenge": 14,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/817/1000/1000/636319321542592979.jpeg"
+ },
+ {
+   "name": "Decapus",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/39/271/1000/1000/636411143622152408.png"
+ },
+ {
+   "name": "Deep Gnome (Svirfneblin)",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/112/1000/1000/636323610009818415.jpeg"
+ },
+ {
+   "name": "Deep Scion",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/615/1000/1000/636329600293443867.jpeg"
+ },
+ {
+   "name": "Demilich",
+   "challenge": 18,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/744/1000/1000/636317435411753596.jpeg"
+ },
+ {
+   "name": "Demogorgon",
+   "challenge": 26,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/9/1000/1000/636369569371283430.png"
+ },
+ {
+   "name": "Derro",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/3/1000/1000/636369568203236689.png"
+ },
+ {
+   "name": "Derro Savant",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/5/1000/1000/636369568413935596.png"
+ },
+ {
+   "name": "Deva",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/267/1000/1000/636252768980059444.jpeg"
+ },
+ {
+   "name": "Devourer",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/623/1000/1000/636329634187994899.jpeg"
+ },
+ {
+   "name": "Dire Wolf",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/484/1000/1000/636376300478361995.jpeg"
+ },
+ {
+   "name": "Displacer Beast",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/758/1000/1000/636318176493021284.jpeg"
+ },
+ {
+   "name": "Djinni",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/281/1000/1000/636252770322204007.jpeg"
+ },
+ {
+   "name": "Doppelganger",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/289/1000/1000/636252770983164351.jpeg"
+ },
+ {
+   "name": "Draegloth",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/627/1000/1000/636329655601584394.jpeg"
+ },
+ {
+   "name": "Dragon Turtle",
+   "challenge": 17,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/291/1000/1000/636252771128151641.jpeg"
+ },
+ {
+   "name": "Dragonbait",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/749/1000/1000/636395098125521040.png"
+ },
+ {
+   "name": "Dragonclaw",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/477/1000/1000/636364322421936384.png"
+ },
+ {
+   "name": "Dralmorrer Borngray",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/458/1000/1000/636373110594461144.png"
+ },
+ {
+   "name": "Dread Warrior",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/315/1000/1000/636363344403288455.png"
+ },
+ {
+   "name": "Dretch",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/293/1000/1000/636252771253285096.jpeg"
+ },
+ {
+   "name": "Drider",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/295/1000/1000/636252771409285458.jpeg"
+ },
+ {
+   "name": "Drow",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/501/1000/1000/636376310726273495.jpeg"
+ },
+ {
+   "name": "Drow Mage",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/777/1000/1000/636318410621239951.jpeg"
+ },
+ {
+   "name": "Druid",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/299/1000/1000/636252771583275655.jpeg"
+ },
+ {
+   "name": "Druid",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/299/1000/1000/636252771583275655.jpeg"
+ },
+ {
+   "name": "Dryad",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/307/1000/1000/636252771953950206.jpeg"
+ },
+ {
+   "name": "Dryad",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/307/1000/1000/636252771953950206.jpeg"
+ },
+ {
+   "name": "Duergar",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/309/1000/1000/636252772101183765.jpeg"
+ },
+ {
+   "name": "Duergar",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/309/1000/1000/636252772101183765.jpeg"
+ },
+ {
+   "name": "Duodrone",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/505/1000/1000/636376313171725875.jpeg"
+ },
+ {
+   "name": "Dust Mephit",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/313/1000/1000/636252772213922157.jpeg"
+ },
+ {
+   "name": "Duvessa Shane",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/237/1000/1000/636371831891849942.png"
+ },
+ {
+   "name": "Eagle",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/515/1000/1000/636376317171111968.jpeg"
+ },
+ {
+   "name": "Earth Elemental",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/317/1000/1000/636252772331779404.jpeg"
+ },
+ {
+   "name": "Earth Elem Myrmidon",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/355/1000/1000/636372275151221931.png"
+ },
+ {
+   "name": "Eblis",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/751/1000/1000/636395098488432544.png"
+ },
+ {
+   "name": "Efreeti",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/325/1000/1000/636252775714332067.jpeg"
+ },
+ {
+   "name": "Elder Brain",
+   "challenge": 14,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/748/1000/1000/636331329555553451.jpeg"
+ },
+ {
+   "name": "Empyrean",
+   "challenge": 23,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/476/1000/1000/636376297089415266.jpeg"
+ },
+ {
+   "name": "Erinyes",
+   "challenge": 12,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/329/1000/1000/636252776041158657.jpeg"
+ },
+ {
+   "name": "Eternal Flame Guardian",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/378/1000/1000/636372298096225930.png"
+ },
+ {
+   "name": "Eternal Flame Priest",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/325/1000/1000/636372269691716802.png"
+ },
+ {
+   "name": "Ettercap",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/339/1000/1000/636252776771842998.jpeg"
+ },
+ {
+   "name": "Ettin",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/341/1000/1000/636252776953634777.jpeg"
+ },
+ {
+   "name": "Faerie Dragon (Older)",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/611/1000/1000/636312391010147906.jpeg"
+ },
+ {
+   "name": "Faerie Dragon (Younger)",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/609/1000/1000/636312383158834992.jpeg"
+ },
+ {
+   "name": "Fathomer",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/339/1000/1000/636372271973454246.png"
+ },
+ {
+   "name": "Fire Elemental",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/343/1000/1000/636252777098624896.jpeg"
+ },
+ {
+   "name": "Fire Elemental Myrmidon",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/353/1000/1000/636372274873353812.png"
+ },
+ {
+   "name": "Fire Giant",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/357/1000/1000/636252778143767005.jpeg"
+ },
+ {
+   "name": "Fire Giant Dreadnought",
+   "challenge": 14,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/641/1000/1000/636329703593657815.jpeg"
+ },
+ {
+   "name": "Fire Snake",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/102/1000/1000/636323502432999879.jpeg"
+ },
+ {
+   "name": "Firenewt Warrior",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/629/1000/1000/636329665625975001.jpeg"
+ },
+ {
+   "name": "Flail Snail",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/634/1000/1000/636329681290778779.jpeg"
+ },
+ {
+   "name": "Flameskull",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/487/1000/1000/636364325235118776.png"
+ },
+ {
+   "name": "Flamewrath",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/327/1000/1000/636372270161228720.png"
+ },
+ {
+   "name": "Flesh Golem",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/359/1000/1000/636252778311644574.jpeg"
+ },
+ {
+   "name": "Flind",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/675/1000/1000/636330365855356551.jpeg"
+ },
+ {
+   "name": "Flumph",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/819/1000/1000/636319337524366837.jpeg"
+ },
+ {
+   "name": "Flying Monkey",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/753/1000/1000/636395098669556432.png"
+ },
+ {
+   "name": "Flying Snake",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/517/1000/1000/636376319640572721.jpeg"
+ },
+ {
+   "name": "Flying Sword",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/77/599/1000/1000/636473151106171093.png"
+ },
+ {
+   "name": "Fomorian",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/821/1000/1000/636319342215077272.jpeg"
+ },
+ {
+   "name": "Four-Armed Troll",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/291/1000/1000/636372014793475462.png"
+ },
+ {
+   "name": "Fraz-Urbaoluu",
+   "challenge": 23,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/11/1000/1000/636369569578057721.png"
+ },
+ {
+   "name": "Frog",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/523/1000/1000/636376321230650501.jpeg"
+ },
+ {
+   "name": "Froghemoth",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/636/1000/1000/636329685469779526.jpeg"
+ },
+ {
+   "name": "Frost Giant",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/405/1000/1000/636252786158646348.jpeg"
+ },
+ {
+   "name": "Frost Giant Everlasting One",
+   "challenge": 12,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/663/1000/1000/636330316157497102.jpeg"
+ },
+ {
+   "name": "Frulam Mondath",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/466/1000/1000/636373130861407302.png"
+ },
+ {
+   "name": "Galeb Duhr",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/840/1000/1000/636319942216209592.jpeg"
+ },
+ {
+   "name": "Gar Shatterkeel",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/327/1000/1000/636379845555576109.png"
+ },
+ {
+   "name": "Gargoyle",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/407/1000/1000/636252786295384889.jpeg"
+ },
+ {
+   "name": "Gas Spore",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/525/1000/1000/636376325969431504.jpeg"
+ },
+ {
+   "name": "Gauth",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/539/1000/1000/636328845136086669.jpeg"
+ },
+ {
+   "name": "Gazer",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/590/1000/1000/636329508758779683.jpeg"
+ },
+ {
+   "name": "Gazer Familiar",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/77/614/1000/1000/636473160566414886.png"
+ },
+ {
+   "name": "Gelatinous Cube",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/409/1000/1000/636252786406028958.jpeg"
+ },
+ {
+   "name": "Geonid",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/39/273/1000/1000/636411143898676409.png"
+ },
+ {
+   "name": "Ghald",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/343/1000/1000/636372273074915633.png"
+ },
+ {
+   "name": "Ghast",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/411/1000/1000/636252786516023032.jpeg"
+ },
+ {
+   "name": "Ghelryn Foehammer",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/279/1000/1000/636371972647576740.png"
+ },
+ {
+   "name": "Ghost",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/413/1000/1000/636252786639798307.jpeg"
+ },
+ {
+   "name": "Ghoul",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/483/1000/1000/636364323937041514.png"
+ },
+ {
+   "name": "Giant Badger",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/530/1000/1000/636376327839601860.jpeg"
+ },
+ {
+   "name": "Giant Eagle",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/894/1000/1000/636334286969931904.jpeg"
+ },
+ {
+   "name": "Giant Fire Beetle",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/896/1000/1000/636334287498492864.jpeg"
+ },
+ {
+   "name": "Giant Frog",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/521/1000/1000/636376321052503535.jpeg"
+ },
+ {
+   "name": "Giant Octopus",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/898/1000/1000/636334288003435302.jpeg"
+ },
+ {
+   "name": "Giant Owl",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/535/1000/1000/636376331788287090.jpeg"
+ },
+ {
+   "name": "Giant Rat",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/538/1000/1000/636376332197953299.jpeg"
+ },
+ {
+   "name": "Giant Spider",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/323/1000/1000/636252775648743317.jpeg"
+ },
+ {
+   "name": "Giant Strider",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/631/1000/1000/636329668947747269.jpeg"
+ },
+ {
+   "name": "Gibbering Mouther",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/333/1000/1000/636252776252001529.jpeg"
+ },
+ {
+   "name": "Girallon",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/673/1000/1000/636330350705668892.jpeg"
+ },
+ {
+   "name": "Girallon Zombie",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/779/1000/1000/636395102209814285.png"
+ },
+ {
+   "name": "Githyanki Knight",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/548/1000/1000/636376339907263682.jpeg"
+ },
+ {
+   "name": "Githzerai Monk",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/845/1000/1000/636320027489208114.jpeg"
+ },
+ {
+   "name": "Glabrezu",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/337/1000/1000/636252776677682465.jpeg"
+ },
+ {
+   "name": "Gnoll",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/345/1000/1000/636252777224997611.jpeg"
+ },
+ {
+   "name": "Gnoll Flesh Gnawer",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/677/1000/1000/636330370101337992.jpeg"
+ },
+ {
+   "name": "Gnoll Witherling",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/679/1000/1000/636330376242599377.jpeg"
+ },
+ {
+   "name": "Goblin",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/351/1000/1000/636252777818652432.jpeg"
+ },
+ {
+   "name": "Gold Dragon Wyrmling",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/516/1000/1000/636285466148376212.jpeg"
+ },
+ {
+   "name": "Gorgon",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/355/1000/1000/636252778125099430.jpeg"
+ },
+ {
+   "name": "Goristro",
+   "challenge": 17,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/848/1000/1000/636320050993616208.jpeg"
+ },
+ {
+   "name": "Gray Slaad",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/645/1000/1000/636313270178184649.jpeg"
+ },
+ {
+   "name": "Graaozt",
+   "challenge": 24,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/13/1000/1000/636369569749292014.png"
+ },
+ {
+   "name": "Green Dragon Wyrmling",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/363/1000/1000/636252778639163748.jpeg"
+ },
+ {
+   "name": "Green Guard Drake",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/694/1000/1000/636330459322890654.jpeg"
+ },
+ {
+   "name": "Green Hag",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/365/1000/1000/636252778948574879.jpeg"
+ },
+ {
+   "name": "Green Slaad",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/648/1000/1000/636313314815106357.jpeg"
+ },
+ {
+   "name": "Grell",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/850/1000/1000/636320058042577421.jpeg"
+ },
+ {
+   "name": "Grick",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/369/315/315/636252779341924439.jpeg"
+ },
+ {
+   "name": "Griffon",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/373/1000/1000/636252779693862725.jpeg"
+ },
+ {
+   "name": "Grimlock",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/375/1000/1000/636252780049813181.jpeg"
+ },
+ {
+   "name": "Grung",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/681/1000/1000/636330382387810873.jpeg"
+ },
+ {
+   "name": "Grung Elite Warrior",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/685/1000/1000/636330429327570956.jpeg"
+ },
+ {
+   "name": "Grung Wildling",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/688/1000/1000/636330441782811385.jpeg"
+ },
+ {
+   "name": "Guard Drake",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/690/1000/1000/636330448954774698.jpeg"
+ },
+ {
+   "name": "Guardian Naga",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/377/1000/1000/636252780447421771.jpeg"
+ },
+ {
+   "name": "Gynosphinx",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/383/1000/1000/636252780786457550.jpeg"
+ },
+ {
+   "name": "Half-Ogre",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/41/1000/1000/636322707213547208.jpeg"
+ },
+ {
+   "name": "Half-Red Dragon Veteran",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/387/1000/1000/636252781353903793.jpeg"
+ },
+ {
+   "name": "Harpy",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/391/1000/1000/636252781955908234.jpeg"
+ },
+ {
+   "name": "Hawk",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/900/1000/1000/636334288270143064.jpeg"
+ },
+ {
+   "name": "Hell Hound",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/393/1000/1000/636252782461361426.jpeg"
+ },
+ {
+   "name": "Helmed Horror",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/853/1000/1000/636320075427677507.jpeg"
+ },
+ {
+   "name": "Hezrou",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/321/1000/1000/636252775562934524.jpeg"
+ },
+ {
+   "name": "Hill Giant",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/331/1000/1000/636252776196140305.jpeg"
+ },
+ {
+   "name": "Hippogriff",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/335/1000/1000/636252776578605778.jpeg"
+ },
+ {
+   "name": "Hobgoblin",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/389/1000/1000/636252781431932597.jpeg"
+ },
+ {
+   "name": "Hobgoblin Devastator",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/701/1000/1000/636330487451395203.jpeg"
+ },
+ {
+   "name": "Hobgoblin Iron Shadow",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/704/1000/1000/636330491982952090.jpeg"
+ },
+ {
+   "name": "Homunculus",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/287/1000/1000/636379803928245506.jpeg"
+ },
+ {
+   "name": "Hook Horror",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/857/1000/1000/636320162431621752.jpeg"
+ },
+ {
+   "name": "Horned Devil",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/347/1000/1000/636252777255936976.jpeg"
+ },
+ {
+   "name": "Howling Hatred Priest",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/314/1000/1000/636372267802228268.png"
+ },
+ {
+   "name": "Hydra",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/349/1000/1000/636252777669218389.jpeg"
+ },
+ {
+   "name": "Hyena",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/902/1000/1000/636334288674955736.jpeg"
+ },
+ {
+   "name": "Ice Devil",
+   "challenge": 14,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/353/1000/1000/636252777966974765.jpeg"
+ },
+ {
+   "name": "Ice Mephit",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/290/1000/1000/636379804105821214.jpeg"
+ },
+ {
+   "name": "Illusionist",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/317/1000/1000/636363345970691654.png"
+ },
+ {
+   "name": "Imix",
+   "challenge": 19,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/357/1000/1000/636372275443045743.png"
+ },
+ {
+   "name": "Imp",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/361/1000/1000/636252778560366227.jpeg"
+ },
+ {
+   "name": "Intellect Devourer",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/915/1000/1000/636320970224581892.jpeg"
+ },
+ {
+   "name": "Invisible Stalker",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/367/1000/1000/636252779159282339.jpeg"
+ },
+ {
+   "name": "Iron Golem",
+   "challenge": 16,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/371/1000/1000/636252779460570049.jpeg"
+ },
+ {
+   "name": "Ixitxachitl",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/997/1000/1000/636369567390631423.png"
+ },
+ {
+   "name": "Jackalwere",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/919/1000/1000/636320977835945225.jpeg"
+ },
+ {
+   "name": "Jaculi",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/755/1000/1000/636395098922154781.png"
+ },
+ {
+   "name": "Jamna Gleamsilver",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/469/1000/1000/636373132333416979.png"
+ },
+ {
+   "name": "Juiblex",
+   "challenge": 23,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/15/1000/1000/636369569953128416.png"
+ },
+ {
+   "name": "Kamadan",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/757/1000/1000/636395099189263559.png"
+ },
+ {
+   "name": "Kenku",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/921/1000/1000/636320985310105019.jpeg"
+ },
+ {
+   "name": "Ki-rin",
+   "challenge": 12,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/709/1000/1000/636330514467564552.jpeg"
+ },
+ {
+   "name": "Kobold",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/379/1000/1000/636252780450300625.jpeg"
+ },
+ {
+   "name": "Kobold Dragonshield",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/728/1000/1000/636331194942789571.jpeg"
+ },
+ {
+   "name": "Kobold Inventor",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/730/1000/1000/636331209440702314.jpeg"
+ },
+ {
+   "name": "Kobold Scale Sorcerer",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/732/1000/1000/636331220455038939.jpeg"
+ },
+ {
+   "name": "Korred",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/734/1000/1000/636331228026901440.jpeg"
+ },
+ {
+   "name": "Kraken",
+   "challenge": 23,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/381/1000/1000/636252780680163799.jpeg"
+ },
+ {
+   "name": "Kraken Priest",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/856/1000/1000/636332918110062788.jpeg"
+ },
+ {
+   "name": "Kuo-toa",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/923/1000/1000/636320993983495525.jpeg"
+ },
+ {
+   "name": "Kuo-toa Archpriest",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/927/1000/1000/636321050028442383.jpeg"
+ },
+ {
+   "name": "Kuo-toa Whip",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/929/1000/1000/636321057775156898.jpeg"
+ },
+ {
+   "name": "Lamia",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/385/1000/1000/636252780906064244.jpeg"
+ },
+ {
+   "name": "Langdedrosa Cyanwrath",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/464/1000/1000/636373130617114175.png"
+ },
+ {
+   "name": "Lemure",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/149/1000/1000/636252758704142054.jpeg"
+ },
+ {
+   "name": "Leucrotta",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/737/1000/1000/636331239771358478.jpeg"
+ },
+ {
+   "name": "Lich",
+   "challenge": 21,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/165/1000/1000/636252760084366499.jpeg"
+ },
+ {
+   "name": "Lifferlas",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/251/1000/1000/636371878115240531.png"
+ },
+ {
+   "name": "Lizardfolk",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/233/1000/1000/636252766314905259.jpeg"
+ },
+ {
+   "name": "Magma Mephit",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/292/1000/1000/636379804350894228.jpeg"
+ },
+ {
+   "name": "Magmin",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/183/1000/1000/636252762034276620.jpeg"
+ },
+ {
+   "name": "Manes",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/118/1000/1000/636323623730793174.jpeg"
+ },
+ {
+   "name": "Manticore",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/187/1000/1000/636252762623266809.jpeg"
+ },
+ {
+   "name": "Marid",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/815/1000/1000/636319307346542473.jpeg"
+ },
+ {
+   "name": "Marilith",
+   "challenge": 16,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/189/1000/1000/636252763036079032.jpeg"
+ },
+ {
+   "name": "Markham Southwell",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/239/1000/1000/636371835135085935.png"
+ },
+ {
+   "name": "Marlos Urnrayle",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/323/1000/1000/636372269475329537.png"
+ },
+ {
+   "name": "Master Thief",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/11/903/1000/1000/636348119918171434.png"
+ },
+ {
+   "name": "Mastiff",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/191/1000/1000/636252763295291063.jpeg"
+ },
+ {
+   "name": "Maw Demon",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/619/1000/1000/636329621309530681.jpeg"
+ },
+ {
+   "name": "Medusa",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/580/1000/1000/636376361850900325.jpeg"
+ },
+ {
+   "name": "Meenlock",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/739/1000/1000/636331246607756662.jpeg"
+ },
+ {
+   "name": "Merfolk",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/197/1000/1000/636252763841141413.jpeg"
+ },
+ {
+   "name": "Merrow",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/203/1000/1000/636252764097970952.jpeg"
+ },
+ {
+   "name": "Mezzoloth",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/295/1000/1000/636379806816387131.png"
+ },
+ {
+   "name": "Mimic",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/211/1000/1000/636252764731637373.jpeg"
+ },
+ {
+   "name": "Mind Flayer",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/602/1000/1000/636312287872384208.jpeg"
+ },
+ {
+   "name": "Mind Flayer Arcanist",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/19/1000/1000/636322598567599439.jpeg"
+ },
+ {
+   "name": "Mindwitness",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/753/1000/1000/636331354221437013.jpeg"
+ },
+ {
+   "name": "Minotaur",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/217/1000/1000/636252765009181721.jpeg"
+ },
+ {
+   "name": "Minotaur Skeleton",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/480/1000/1000/636376298435934058.jpeg"
+ },
+ {
+   "name": "Miros Xelbrin",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/255/1000/1000/636371888834442299.png"
+ },
+ {
+   "name": "Monodrone",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/503/1000/1000/636376312256774898.jpeg"
+ },
+ {
+   "name": "Morkoth",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/755/1000/1000/636331364140736757.jpeg"
+ },
+ {
+   "name": "Mouth of Grolantor",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/666/1000/1000/636330329502210211.jpeg"
+ },
+ {
+   "name": "Mud Mephit",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/297/1000/1000/636379807088272583.jpeg"
+ },
+ {
+   "name": "Mummy",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/225/1000/1000/636252765553048566.jpeg"
+ },
+ {
+   "name": "Mwaxanari",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/760/1000/1000/636395099840937089.png"
+ },
+ {
+   "name": "Myconid Adult",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/36/1000/1000/636322685809627708.jpeg"
+ },
+ {
+   "name": "Myconid Sovereign",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/38/1000/1000/636322692434762453.jpeg"
+ },
+ {
+   "name": "Myconid Sprout",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/33/1000/1000/636322678082764502.jpeg"
+ },
+ {
+   "name": "Naergoth Bladelord",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/530/1000/1000/636373689264275708.png"
+ },
+ {
+   "name": "Nalfeshnee",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/261/1000/1000/636252768396688147.jpeg"
+ },
+ {
+   "name": "Narth Tezrin",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/272/1000/1000/636371955491456625.png"
+ },
+ {
+   "name": "Naxene Drathkala",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/260/1000/1000/636371902792198028.png"
+ },
+ {
+   "name": "Needle Blight",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/462/1000/1000/636376286057911052.png"
+ },
+ {
+   "name": "Neogi",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/757/1000/1000/636331372956626431.jpeg"
+ },
+ {
+   "name": "Neothelid",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/760/1000/1000/636331381858675803.jpeg"
+ },
+ {
+   "name": "Neronvain",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/528/1000/1000/636373687880642173.png"
+ },
+ {
+   "name": "Nezznar the Black Spider",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/489/1000/1000/636364325925747535.png"
+ },
+ {
+   "name": "Night Hag",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/269/1000/1000/636252769277562895.jpeg"
+ },
+ {
+   "name": "Nightmare",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/273/1000/1000/636252769493472144.jpeg"
+ },
+ {
+   "name": "Nilbog",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/764/1000/1000/636331404092926292.jpeg"
+ },
+ {
+   "name": "Noble",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/277/1000/1000/636252769861281900.jpeg"
+ },
+ {
+   "name": "Nothic",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/475/1000/1000/636364321398842272.png"
+ },
+ {
+   "name": "Nycaloth",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/693/1000/1000/636315003081606465.jpeg"
+ },
+ {
+   "name": "Ochre Jelly",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/279/1000/1000/636252770058723674.jpeg"
+ },
+ {
+   "name": "Octopus",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/921/1000/1000/636334602449110996.jpeg"
+ },
+ {
+   "name": "Ogrimoch",
+   "challenge": 20,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/365/1000/1000/636372276702939258.png"
+ },
+ {
+   "name": "Ogre",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/285/1000/1000/636252770535203221.jpeg"
+ },
+ {
+   "name": "Ogre Zombie",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/287/1000/1000/636252770700032248.jpeg"
+ },
+ {
+   "name": "Olhydra",
+   "challenge": 18,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/361/1000/1000/636372275960402513.png"
+ },
+ {
+   "name": "One-Eyed Shiver",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/337/1000/1000/636372271777026722.png"
+ },
+ {
+   "name": "Oni",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/297/1000/1000/636252771507213738.jpeg"
+ },
+ {
+   "name": "Orc",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/301/1000/1000/636252771691385727.jpeg"
+ },
+ {
+   "name": "Orc Claw of Luthic",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/766/1000/1000/636331414502688028.jpeg"
+ },
+ {
+   "name": "Orc Nurtured One of Yurtrus",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/768/1000/1000/636331423646316933.jpeg"
+ },
+ {
+   "name": "Orc Red Fang of Shargaas",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/770/1000/1000/636331429909617072.jpeg"
+ },
+ {
+   "name": "Orcus",
+   "challenge": 26,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/17/1000/1000/636369570088066776.png"
+ },
+ {
+   "name": "Oreioth",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/347/1000/1000/636372273830093139.png"
+ },
+ {
+   "name": "Oren Yogilvy",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/263/1000/1000/636371906284268568.png"
+ },
+ {
+   "name": "Orog",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/46/1000/1000/636322752251862561.jpeg"
+ },
+ {
+   "name": "Othovir",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/276/1000/1000/636371966315536092.png"
+ },
+ {
+   "name": "Otyugh",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/305/1000/1000/636252771931366466.jpeg"
+ },
+ {
+   "name": "Owl",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/533/1000/1000/636376331660233857.jpeg"
+ },
+ {
+   "name": "Owlbear",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/315/1000/1000/636252772225295187.jpeg"
+ },
+ {
+   "name": "Pegasus",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/303/1000/1000/636379808797059368.png"
+ },
+ {
+   "name": "Pentadrone",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/512/1000/1000/636376316530280715.jpeg"
+ },
+ {
+   "name": "Peryton",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/49/1000/1000/636322768843588552.jpeg"
+ },
+ {
+   "name": "Pharblex Spattergoo",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/471/1000/1000/636373133305154125.png"
+ },
+ {
+   "name": "Phase Spider",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/319/1000/1000/636252772538300448.jpeg"
+ },
+ {
+   "name": "Piercer",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/51/1000/1000/636322773006669455.jpeg"
+ },
+ {
+   "name": "Pit Fiend",
+   "challenge": 20,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/311/1000/1000/636252772132434763.jpeg"
+ },
+ {
+   "name": "Pixie",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/53/1000/1000/636322779297090335.jpeg"
+ },
+ {
+   "name": "Planetar",
+   "challenge": 16,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/303/1000/1000/636252771762002496.jpeg"
+ },
+ {
+   "name": "Plesiosaurus",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/488/1000/1000/636376304583147024.jpeg"
+ },
+ {
+   "name": "Pseudodragon",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/283/1000/1000/636252770521719244.jpeg"
+ },
+ {
+   "name": "Psychic Gray Ooze",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/43/1000/1000/636322715531892401.jpeg"
+ },
+ {
+   "name": "Pterafolk",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/762/1000/1000/636395100053374701.png"
+ },
+ {
+   "name": "Purple Worm",
+   "challenge": 15,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/275/1000/1000/636252769846436684.jpeg"
+ },
+ {
+   "name": "Quadrone",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/510/1000/1000/636376315582211131.jpeg"
+ },
+ {
+   "name": "Quaggoth",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/55/1000/1000/636322786623213873.jpeg"
+ },
+ {
+   "name": "Quaggoth Thonot",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/57/1000/1000/636322790083765727.jpeg"
+ },
+ {
+   "name": "Quasit",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/271/1000/1000/636252769318699115.jpeg"
+ },
+ {
+   "name": "Quickling",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/774/1000/1000/636331437289736779.jpeg"
+ },
+ {
+   "name": "Quipper",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/253/1000/1000/636252767919065233.jpeg"
+ },
+ {
+   "name": "Rakshasa",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/247/1000/1000/636252767480157951.jpeg"
+ },
+ {
+   "name": "Ras Nsi",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/765/1000/1000/636395100349835167.png"
+ },
+ {
+   "name": "Rat",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/541/1000/1000/636376335435407571.jpeg"
+ },
+ {
+   "name": "Rath Modar",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/456/315/315/636373109388580226.png"
+ },
+ {
+   "name": "Raven",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/553/1000/1000/636376341568391037.jpeg"
+ },
+ {
+   "name": "Razerblast",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/329/1000/1000/636372270503808078.png"
+ },
+ {
+   "name": "Red Dragon Wyrmling",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/239/1000/1000/636252766855622680.jpeg"
+ },
+ {
+   "name": "Red Slaad",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/651/1000/1000/636313342116740703.jpeg"
+ },
+ {
+   "name": "Redcap",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/788/1000/1000/636332006160598385.jpeg"
+ },
+ {
+   "name": "Remorhaz",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/231/1000/1000/636252766143328421.jpeg"
+ },
+ {
+   "name": "Revenant",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/558/1000/1000/636376343309269811.jpeg"
+ },
+ {
+   "name": "Rezmir",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/477/1000/1000/636373139153597868.png"
+ },
+ {
+   "name": "Riding Horse",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/904/1000/1000/636334288913250513.jpeg"
+ },
+ {
+   "name": "Roc",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/229/1000/1000/636252765590929622.jpeg"
+ },
+ {
+   "name": "Roper",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/560/1000/1000/636376344528091115.jpeg"
+ },
+ {
+   "name": "Rug of Smothering",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/213/1000/1000/636252764761726261.jpeg"
+ },
+ {
+   "name": "Rust Monster",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/207/1000/1000/636252764265020108.jpeg"
+ },
+ {
+   "name": "Sahuagin",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/177/1000/1000/636252761683746719.jpeg"
+ },
+ {
+   "name": "Sahuagin Baron",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/100/1000/1000/636323496465469651.jpeg"
+ },
+ {
+   "name": "Salamander",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/173/1000/1000/636252761197608364.jpeg"
+ },
+ {
+   "name": "Satyr",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/169/1000/1000/636252760706340605.jpeg"
+ },
+ {
+   "name": "Scarecrow",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/104/1000/1000/636323506759235256.jpeg"
+ },
+ {
+   "name": "Scout",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/163/315/315/636252759915100020.jpeg"
+ },
+ {
+   "name": "Sea Hag",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/159/1000/1000/636252759356069260.jpeg"
+ },
+ {
+   "name": "Sea Lion",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/321/1000/1000/636363347399415787.png"
+ },
+ {
+   "name": "Sea Spawn",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/790/1000/1000/636332024010764043.jpeg"
+ },
+ {
+   "name": "Severin",
+   "challenge": 11,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/538/1000/1000/636373693279839063.png"
+ },
+ {
+   "name": "Shadow",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/155/1000/1000/636252758977032019.jpeg"
+ },
+ {
+   "name": "Shadow Demon",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/772/1000/1000/636318334844169327.jpeg"
+ },
+ {
+   "name": "Shadow Mastiff",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/794/1000/1000/636332036586123511.jpeg"
+ },
+ {
+   "name": "Shadow Mastiff Alpha",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/925/1000/1000/636334639356524659.jpeg"
+ },
+ {
+   "name": "Shalvus Martholio",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/249/1000/1000/636371874469195675.png"
+ },
+ {
+   "name": "Shambling Mound",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/563/1000/1000/636376346968079714.jpeg"
+ },
+ {
+   "name": "Shield Guardian",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/145/1000/1000/636252758362792494.jpeg"
+ },
+ {
+   "name": "Shoosuva",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/621/1000/1000/636329626233547325.jpeg"
+ },
+ {
+   "name": "Shrieker",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/571/1000/1000/636376357634308010.jpeg"
+ },
+ {
+   "name": "Silver Dragon Wyrmling",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/143/1000/1000/636252757538355953.jpeg"
+ },
+ {
+   "name": "Sir Baric Nylef",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/243/1000/1000/636371859856537252.png"
+ },
+ {
+   "name": "Sirac of Suzail",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/235/1000/1000/636371828406966017.png"
+ },
+ {
+   "name": "Skeleton",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/472/1000/1000/636376294573239565.jpeg"
+ },
+ {
+   "name": "Slithering Tracker",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/796/1000/1000/636332042822778070.jpeg"
+ },
+ {
+   "name": "Smoke Mephit",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/609/1000/1000/636376386915665988.jpeg"
+ },
+ {
+   "name": "Solar",
+   "challenge": 21,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/121/1000/1000/636252748079664097.jpeg"
+ },
+ {
+   "name": "Spawn of Kyuss",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/798/1000/1000/636332047867365108.jpeg"
+ },
+ {
+   "name": "Spectator",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/485/1000/1000/636364324602733616.png"
+ },
+ {
+   "name": "Specter",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/119/1000/1000/636252747399435720.jpeg"
+ },
+ {
+   "name": "Spider",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/575/1000/1000/636376359864842950.jpeg"
+ },
+ {
+   "name": "Spined Devil",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/120/1000/1000/636323629155099018.jpeg"
+ },
+ {
+   "name": "Spirit Naga",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/117/1000/1000/636252746851035686.jpeg"
+ },
+ {
+   "name": "Sprite",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/115/1000/1000/636252746444973630.jpeg"
+ },
+ {
+   "name": "Steam Mephit",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/113/1000/1000/636252745841820724.jpeg"
+ },
+ {
+   "name": "Stegosaurus",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/625/1000/1000/636329651427868309.jpeg"
+ },
+ {
+   "name": "Stirge",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/111/315/315/636252745395103202.jpeg"
+ },
+ {
+   "name": "Stone Giant",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/109/1000/1000/636252744518731463.jpeg"
+ },
+ {
+   "name": "Stone Giant Dreamwalker",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/668/1000/1000/636330336033228985.jpeg"
+ },
+ {
+   "name": "Stone Golem",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/107/1000/1000/636252743780112834.jpeg"
+ },
+ {
+   "name": "Storm Giant",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/105/1000/1000/636252743254029469.jpeg"
+ },
+ {
+   "name": "Storm Giant Quintessent",
+   "challenge": 16,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/671/1000/1000/636330346803974302.jpeg"
+ },
+ {
+   "name": "Su-monster",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/767/1000/1000/636395100610358998.png"
+ },
+ {
+   "name": "Succubus/Incubus",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/103/1000/1000/636252742573312994.jpeg"
+ },
+ {
+   "name": "Swarm of Bats",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/906/1000/1000/636334289313689439.jpeg"
+ },
+ {
+   "name": "Swarm of Cranium Rats",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/606/1000/1000/636329535490872499.jpeg"
+ },
+ {
+   "name": "Swarm of Quippers",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/276/1000/1000/636379781035768521.jpeg"
+ },
+ {
+   "name": "Swarm of Rats",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/908/1000/1000/636334289541603972.jpeg"
+ },
+ {
+   "name": "Swarm of Ravens",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/555/1000/1000/636376341743427326.jpeg"
+ },
+ {
+   "name": "Swashbuckler",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/858/1000/1000/636332937533244694.jpeg"
+ },
+ {
+   "name": "Tabaxi Minstrel",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/769/1000/1000/636395100852851058.png"
+ },
+ {
+   "name": "Talis the White",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/473/1000/1000/636373135803391589.png"
+ },
+ {
+   "name": "Tanarukk",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/772/1000/1000/636331434621056023.jpeg"
+ },
+ {
+   "name": "Tarrasque",
+   "challenge": 30,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/101/1000/1000/636252741877524077.jpeg"
+ },
+ {
+   "name": "Thayan Apprentice",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/319/1000/1000/636363346311283293.png"
+ },
+ {
+   "name": "Thorny",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/811/1000/1000/636332086384498148.jpeg"
+ },
+ {
+   "name": "Thri-kreen",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/474/1000/1000/636376295932025106.jpeg"
+ },
+ {
+   "name": "Thug",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/99/1000/1000/636252741335519081.jpeg"
+ },
+ {
+   "name": "Tiamat",
+   "challenge": 30,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/532/1000/1000/636373689867850686.png"
+ },
+ {
+   "name": "Tlincalli",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/800/1000/1000/636332054883842722.jpeg"
+ },
+ {
+   "name": "Topi",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/39/275/1000/1000/636411144233157875.png"
+ },
+ {
+   "name": "Tortle",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/39/277/1000/1000/636411144568189355.png"
+ },
+ {
+   "name": "Trapper",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/802/1000/1000/636332059120057045.jpeg"
+ },
+ {
+   "name": "Treant",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/97/1000/1000/636252740537990664.jpeg"
+ },
+ {
+   "name": "Tressym",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/13/144/1000/1000/636357410104978601.png"
+ },
+ {
+   "name": "Tri-flower Frond",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/791/1000/1000/636395110775175077.png"
+ },
+ {
+   "name": "Tridrone",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/508/1000/1000/636376314169981143.jpeg"
+ },
+ {
+   "name": "Troglodyte",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/108/1000/1000/636323540010349971.jpeg"
+ },
+ {
+   "name": "Troll",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/95/1000/1000/636252739682234623.jpeg"
+ },
+ {
+   "name": "Twig Blight",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/464/1000/1000/636376286997771487.png"
+ },
+ {
+   "name": "Tyrannosaurus Rex",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/594/1000/1000/636376369004412963.jpeg"
+ },
+ {
+   "name": "Ulitharid",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/751/1000/1000/636331340815791689.jpeg"
+ },
+ {
+   "name": "Ultroloth",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/695/1000/1000/636315012644457530.jpeg"
+ },
+ {
+   "name": "Umber Hulk",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/590/1000/1000/636376367240991526.jpeg"
+ },
+ {
+   "name": "Unicorn",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/93/1000/1000/636252739248798123.jpeg"
+ },
+ {
+   "name": "Urgala Meltimer",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/274/1000/1000/636371958004462755.png"
+ },
+ {
+   "name": "Uthgardt Shaman",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/13/146/1000/1000/636357410347490429.png"
+ },
+ {
+   "name": "Vampire",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/91/1000/1000/636252738665379794.jpeg"
+ },
+ {
+   "name": "Vampire Spawn",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/89/1000/1000/636252738148839638.jpeg"
+ },
+ {
+   "name": "Vanifer",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/333/1000/1000/636372271124146949.png"
+ },
+ {
+   "name": "Vargouille",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/804/1000/1000/636332064082839541.jpeg"
+ },
+ {
+   "name": "Vegepygmy",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/806/1000/1000/636332068278071975.jpeg"
+ },
+ {
+   "name": "Vegepygmy Chief",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/809/1000/1000/636332076389004800.jpeg"
+ },
+ {
+   "name": "Vine Blight",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/466/1000/1000/636376287271000215.png"
+ },
+ {
+   "name": "Violet Fungus",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/573/1000/1000/636376357964412799.jpeg"
+ },
+ {
+   "name": "Vrock",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/87/1000/1000/636252737538172594.jpeg"
+ },
+ {
+   "name": "Warlock of the Fiend",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/860/1000/1000/636332958161300517.jpeg"
+ },
+ {
+   "name": "Water Elemental",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/84/1000/1000/636252736680781387.jpeg"
+ },
+ {
+   "name": "Water Elemental Myrmidon",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/351/1000/1000/636372274542401309.png"
+ },
+ {
+   "name": "Water Weird",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/592/1000/1000/636376367494214976.jpeg"
+ },
+ {
+   "name": "Werebear",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/82/1000/1000/636252736005297867.jpeg"
+ },
+ {
+   "name": "Wereboar",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/80/1000/1000/636252735506840152.jpeg"
+ },
+ {
+   "name": "Wererat",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/78/1000/1000/636252735121410517.jpeg"
+ },
+ {
+   "name": "Weretiger",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/76/1000/1000/636252734783831163.jpeg"
+ },
+ {
+   "name": "Werewolf",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/74/1000/1000/636252734224239957.jpeg"
+ },
+ {
+   "name": "White Dragon Wyrmling",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/415/1000/1000/636252789083357808.jpeg"
+ },
+ {
+   "name": "Wiggan Nettlebee",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/345/1000/1000/636372273290113636.png"
+ },
+ {
+   "name": "Wight",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/56/1000/1000/636252726349692861.jpeg"
+ },
+ {
+   "name": "Will-o'-Wisp",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/585/1000/1000/636376363763232290.jpeg"
+ },
+ {
+   "name": "Winter Wolf",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/54/1000/1000/636252725270715296.jpeg"
+ },
+ {
+   "name": "Wolf",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/482/1000/1000/636376300223855327.jpeg"
+ },
+ {
+   "name": "Wood Woad",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/813/1000/1000/636332091047977401.jpeg"
+ },
+ {
+   "name": "Worg",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/52/1000/1000/636252724662073178.jpeg"
+ },
+ {
+   "name": "Wraith",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/50/1000/1000/636252724191790008.jpeg"
+ },
+ {
+   "name": "Wyvern",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/48/1000/1000/636252723695596000.jpeg"
+ },
+ {
+   "name": "Xandala",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/794/1000/1000/636395116205984552.png"
+ },
+ {
+   "name": "Xorn",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/46/1000/1000/636252723241554579.jpeg"
+ },
+ {
+   "name": "Xvart",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/820/1000/1000/636332181539382750.jpeg"
+ },
+ {
+   "name": "Xvart Speaker",
+   "challenge": 0.125,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/12/819/1000/1000/636353883002611254.jpeg"
+ },
+ {
+   "name": "Yakfolk Warrior",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/13/148/1000/1000/636357410575695749.png"
+ },
+ {
+   "name": "Yan-C-Bin",
+   "challenge": 18,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/359/1000/1000/636372275673262122.png"
+ },
+ {
+   "name": "Yeenoghu",
+   "challenge": 24,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/19/1000/1000/636369570204620597.png"
+ },
+ {
+   "name": "Yellow Musk Creeper",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/775/1000/1000/636395101744474687.png"
+ },
+ {
+   "name": "Yellow Musk Zombie",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/773/1000/1000/636395101542518419.png"
+ },
+ {
+   "name": "Yeth Hound",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/822/1000/1000/636332195467524620.jpeg"
+ },
+ {
+   "name": "Yeti",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/662/1000/1000/636313413410825930.jpeg"
+ },
+ {
+   "name": "Yochlol",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/738/1000/1000/636317384308595748.jpeg"
+ },
+ {
+   "name": "Young Black Dragon",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/70/1000/1000/636252732861675698.jpeg"
+ },
+ {
+   "name": "Young Blue Dragon",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/68/1000/1000/636252732434296782.jpeg"
+ },
+ {
+   "name": "Young Brass Dragon",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/66/1000/1000/636252731911060874.jpeg"
+ },
+ {
+   "name": "Young Bronze Dragon",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/64/1000/1000/636252731269768088.jpeg"
+ },
+ {
+   "name": "Young Copper Dragon",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/62/1000/1000/636252729761648292.jpeg"
+ },
+ {
+   "name": "Young Gold Dragon",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/60/1000/1000/636252729283446963.jpeg"
+ },
+ {
+   "name": "Young Green Dragon",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/58/1000/1000/636252728834677623.jpeg"
+ },
+ {
+   "name": "Young Red Dragon",
+   "challenge": 10,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/399/1000/1000/636252784386259001.jpeg"
+ },
+ {
+   "name": "Young Red Shadow Dragon",
+   "challenge": 13,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/775/1000/1000/636318352193141440.jpeg"
+ },
+ {
+   "name": "Young Remorhaz",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/60/1000/1000/636322797041471954.jpeg"
+ },
+ {
+   "name": "Young Silver Dragon",
+   "challenge": 9,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/401/1000/1000/636252784740667730.jpeg"
+ },
+ {
+   "name": "Young White Dragon",
+   "challenge": 6,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/403/1000/1000/636252785358767533.jpeg"
+ },
+ {
+   "name": "Yuan-ti Abomination",
+   "challenge": 7,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/689/1000/1000/636314960370199473.jpeg"
+ },
+ {
+   "name": "Yuan-ti Anathema",
+   "challenge": 12,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/825/1000/1000/636332204457615622.jpeg"
+ },
+ {
+   "name": "Yuan-ti Broodguard",
+   "challenge": 2,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/827/1000/1000/636332209999033089.jpeg"
+ },
+ {
+   "name": "Yuan-ti Malison",
+   "challenge": 3,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/691/1000/1000/636314970006849560.jpeg"
+ },
+ {
+   "name": "Yuan-ti Mind Whisperer",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/830/1000/1000/636332218504147796.jpeg"
+ },
+ {
+   "name": "Yuan-ti Nightmare Speaker",
+   "challenge": 4,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/834/1000/1000/636332227078313653.jpeg"
+ },
+ {
+   "name": "Yuan-ti Pit Master",
+   "challenge": 5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/837/1000/1000/636332235645703720.jpeg"
+ },
+ {
+   "name": "Yuan-ti Pureblood",
+   "challenge": 1,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/597/1000/1000/636376370047544718.jpeg"
+ },
+ {
+   "name": "Zi Liang",
+   "challenge": 0,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/253/1000/1000/636371881151951903.png"
+ },
+ {
+   "name": "Zindar",
+   "challenge": 8,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/777/1000/1000/636395101983471319.png"
+ },
+ {
+   "name": "Zombie",
+   "challenge": 0.25,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/71/1000/1000/636252733510786769.jpeg"
+ },
+ {
+   "name": "Zorbo",
+   "challenge": 0.5,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/782/1000/1000/636395102476299082.png"
+ },
+ {
+   "name": "Zuggtmoy",
+   "challenge": 23,
+   "art": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/15/21/1000/1000/636369570329065466.png"
+ }
+]

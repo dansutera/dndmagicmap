@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basics -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagicMap</title>
+    <link rel="shortcut icon" href="/favicon.png">
+
+    <!-- For Facebook / Opengraph -->
+    <meta property="og:title" content="Magic Map" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://dndmagicmap.com/siteicon.png" />
+    <meta property="og:description" content="Magic Map" />
+    <meta property="og:url" content="http://dndmagicmap.com" />
+    <meta property="og:site_name" content="Magic Map" />
+
+    <!-- Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/font-face/entypo.css" type="text/css" />
+
+    <!-- Styles  -->
+    <link rel="stylesheet" href="/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114216700-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-114216700-1');
+    </script> 
+    <script type="text/javascript">
+      $(document).ready(function() {
+      
+        document.getElementById('savebutton').onclick = function() {
+      	
+      	  // Read file
+      	  var files = document.getElementById('selectFiles').files;
+          console.log(files);
+          if (files.length <= 0) return false;
+          var fr = new FileReader();
+          fr.onload = function(e) { 
+            var result = JSON.parse(e.target.result);
+            var formatted = JSON.stringify(result, null, 2);
+            
+            // Save in local memory
+            if (typeof(Storage) !== "undefined") {
+               localStorage.setItem("dashboard", formatted);
+            }
+            
+            // Back to dashboard
+          	window.location.replace('dashboard');
+          }
+          fr.readAsText(files.item(0));  
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div class="hero-top">
+      <a href="#" class="social">&#62217;</a>
+      <a href="#" class="social">&#62220;</a>
+      <a href="#" class="social">&#62253;</a>
+    </div>
+    <div class="logo_middle">
+      <div class="logo_subpage"></div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="subpagecontent">
+      <div class="subpagetextshort">
+        <div>
+          You can customize your own maps, music, videos, and images.<br>
+          1) <a href="/json/dashboard.json">Download this sample JSON file</a> and it and customize as you please.<br>
+          &nbsp; a) The scaling and offsets on maps can be adjusted later. <br>
+          &nbsp; b) You must upload your maps/files to your own server (eg. Dropbox).<br>
+          2) When you're ready, upload the JSON file below.<br>
+          3) Changes are saved until you clear your browser history.<br>
+        </div>
+        <div class="fileimport">
+          <input type="file" id="selectFiles" value="Import" /><br />
+        </div>
+      </div>
+      <div><a href="#" class="button" id="savebutton">SAVE SETTINGS</a></div>
+      <div class="backlink">
+        <a href="dashboard">Cancel</a>
+      </div>
+    </div>
+  </body>
+</html>
