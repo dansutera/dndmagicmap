@@ -1,18 +1,37 @@
 TO DO
 -----
--1) testing
-0) Add rotation to adjustment
-1) Hook up firebase for accounts (fb?) / JSON storage
-2) Full admin screen instead of JSON for customize
-3) Make a video guide
-4) Enable video maps https://www.patreon.com/dynamicdungeons
-5) Map store for dynamic dungeons & mike schley
-6) More TV resolutions 1920x1080
-7) Try youtube links for vids
-8) Presets on map with json and autorecord system
+1) Github
+
+2) Login - Firebase
+
+3) JSON storage - Firebase
+
+4) Casting:
+   > Dual Login (Quality of the TV browser)
+   > Chrome Cast
+   > Wire
+   
+5) Area Selection / Zooming
+
+6) TV Sizes (1920x1080)
+
+7) Enable video maps https://www.patreon.com/dynamicdungeons
+
+8) Full admin screen instead of JSON for customize
+
+9) Map store for dynamic dungeons & mike schley
+
 
 LATER
 ------------
+- Presets on map with json and autorecord system
+- Make a video guide
+- Add 90deg rotation
+  https://stackoverflow.com/questions/5087420/how-to-rotate-the-background-image-in-the-container
+- Try youtube links for vids
+- Fog of war double circle with sizing
+- Allow super zoom by going to 125, 150, 175, 200, 225, 250, 275, 300
+  > Need to fix square efficiency
 - Make an erase cursor, maybe a blue circle
 - Test lowercase letters on superwide maps
 - Nice background music playlist
@@ -25,6 +44,7 @@ LATER
 - Deconstruct the animation json parser from RPG maker
 - Player accounts / tokens
 - Remote TV
+- Hex grid
 
 
 

@@ -142,7 +142,7 @@
         var imageoptions = [];
         $.each(dashboardJSON, function(i, obj) {
           if (obj.type == 'map') {
-            mapoptions[i] = '<option value="' + obj.name + '" data-name="' + obj.name + '" data-scale="' + obj.scale + '" data-mapx="' + obj.offset_x + '" data-mapy="' + obj.offset_y + '" data-urldm="' + encodeURI(obj.url_dm) + '" data-urlplayer="' + encodeURI(obj.url_player) + '">' + obj.name + '</option>';
+            mapoptions[i] = '<option value="' + obj.name + '" data-name="' + obj.name + '" data-scale="' + obj.scale + '" data-mapx="' + obj.offset_x + '" data-mapy="' + obj.offset_y + '" data-maprotate="' + obj.rotate + '" data-urldm="' + encodeURI(obj.url_dm) + '" data-urlplayer="' + encodeURI(obj.url_player) + '">' + obj.name + '</option>';
           }
           else if (obj.type == 'music') {
             musicoptions[i] = '<option value="' + obj.name + '" data-name="' + obj.name + '" data-url="' + encodeURI(obj.url) + '">' + obj.name + '</option>';
@@ -221,13 +221,25 @@
         $('select#select_mapscale').val(newMap.data('scale'));
         $('select#select_mapx').val(newMap.data('mapx'));
         $('select#select_mapy').val(newMap.data('mapy'));
+        $('select#select_maprotate').val(newMap.data('maprotate'));
         
         var newWidth, newHeight, numSquaresWide, numSquaresHigh;
         $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', function() {
           
-          // Detect and set map dimensions
+          // Detect and set map dimensions 
           newWidth = this.width;
           newHeight = this.height;
+          var origin_small, origin_big;
+          if ($(newMap).attr('data-maprotate')) {
+            if (newMap.data('maprotate') == '90') {
+              newWidth = this.height;
+              newHeight = this.width;
+              origin_small = '21px 21px 0px';
+              origin_big = '103px 103px 0px';
+            }
+            $('.map_small').css({'transform':'rotate(' + newMap.data('maprotate') + 'deg)','transform-origin':origin_small});
+            $(magicMap.document).contents().find('.map_big').css({'transform':'rotate(' + newMap.data('maprotate') + 'deg)','transform-origin':origin_big});
+          }
           if ($(newMap).attr('data-scale')) {
             newWidth = newWidth*parseFloat(newMap.data('scale'))/100;
             newHeight = newHeight*parseFloat(newMap.data('scale'))/100;
@@ -315,12 +327,14 @@
           var mapscale = $('select#select_mapscale option:checked').val();
           var mapx = $('select#select_mapx option:checked').val();
           var mapy = $('select#select_mapy option:checked').val();
+          var maprotate = $('select#select_maprotate option:checked').val();
           
           // Change data attributes in map dropdown with adjustments
           var currentMap = $('select#select_choosemap option:checked');
           currentMap.data('scale',mapscale);
           currentMap.data('mapx', mapx);
           currentMap.data('mapy', mapy)
+          currentMap.data('maprotate', maprotate)
           
           // Change and save JSON data with adjustments
           $.each(dashboardJSON, function(i, obj) {
@@ -328,6 +342,7 @@
               obj.scale = mapscale;
               obj.offset_x = mapx;
               obj.offset_y = mapy;
+              obj.rotate = maprotate;
             }
           });
           localStorage.setItem("dashboard", JSON.stringify(dashboardJSON));
@@ -1337,9 +1352,23 @@
             </div>
             <div class="movebox">
               <div class="gridadjuster">
-                Scale: <select class="actionselect actionselectwider" id="select_mapscale" onchange="adjustMap(false);"></select>
+                Scale: 
+                <select class="actionselect actionselectwider" id="select_mapscale" onchange="adjustMap(false);">
+                  <!--option value="300">300</option>
+                  <option value="275">275</option>
+                  <option value="250">250</option>
+                  <option value="225">225</option>
+                  <option value="200">200</option>
+                  <option value="175">175</option>
+                  <option value="150">150</option>
+                  <option value="125">125</option-->
+                </select>
                 X: <select class="actionselect actionselectwider" id="select_mapx" onchange="adjustMap(false);"></select>
                 Y: <select class="actionselect actionselectwider" id="select_mapy" onchange="adjustMap(false);"></select>
+                <!--Rotate:
+                <select class="actionselect actionselectwider" id="select_maprotate" onchange="adjustMap(false);">
+                  <option value="0">0</option>
+                </select-->
                 <a class="bluebuttonadjusted" onclick="adjustMap(true);">DONE</a>
               </div>
             </div>
