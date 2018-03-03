@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MagicMap</title>
-    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="shortcut icon" href="./favicon.png">
 
     <!-- For Facebook / Opengraph -->
     <meta property="og:title" content="Magic Map" />
@@ -17,17 +17,17 @@
 
     <!-- Fonts  -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/css/font-face/entypo.css" type="text/css" />
+    <link rel="stylesheet" href="./css/font-face/entypo.css" type="text/css" />
 
     <!-- Styles  -->
-    <link rel="stylesheet" href="/css/reset.css" type="text/css" />
-    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
 
     <!-- Scripts -->
-    <script src="/js/tweenmax.js"></script>
-    <script src="/js/jquery.js"></script>
-    <script src="/js/imagesloaded.js"></script>
-    <script src="/js/crafty_max.js"></script>
+    <script src="./js/tweenmax.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/imagesloaded.js"></script>
+    <script src="./js/crafty_max.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114216700-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -91,21 +91,29 @@
         }
         if (magicMap.location.href === 'about:blank') {
           magicMap.close();
-          magicMap = window.open('http://dndmagicmap.com/magicmap','MagicMap','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=3840,height=2160,left=100,top=100');
-          $(magicMap).on('load', function() { 
-            doOnMagicMapLoad(); 
+          magicMap = window.open('./magicmap','MagicMap','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=3840,height=2160,left=100,top=100');
+          console.log('load');
+          $(magicMap).on('load', function() {
+            console.log('magicmapload');
+            doOnMagicMapLoad();
           });   
         }
         else {
-          doOnMagicMapLoad(); 
+          console.log('blank');
+          doOnMagicMapLoad();
         }
       });
       
       function doOnMagicMapLoad() {
         
         // Load json
-        if (localStorage.getItem("dashboard") === null) {
-          $.getJSON( "/json/dashboard.json", function(dashboardJSON ){ loadDropdowns(dashboardJSON); });
+        if (!localStorage.getItem("dashboard")) {
+          $.getJSON( "./json/dashboard.json", function(dashboardJSON ) {
+              console.log('loaded');
+              loadDropdowns(dashboardJSON);
+          }, function(error) {
+              console.error(error);
+          });
         }
         else {
           dashboardJSON = localStorage.getItem("dashboard");
@@ -113,7 +121,9 @@
           dashboardJSON = JSON.parse(dashboardJSON);
           loadDropdowns(dashboardJSON);
         }
-        localStorage.setItem("dashboard", JSON.stringify(dashboardJSON));
+        if (dashboardJSON && JSON.stringify(dashboardJSON)) {
+          localStorage.setItem("dashboard", JSON.stringify(dashboardJSON));
+        }
         
         // Set source and targets
         source_big = $(magicMap.document).contents().find('.source_big');
@@ -162,7 +172,7 @@
         $('#select_imagesplash').append(imageoptions.join(''));
           
         var monstertokens = [];
-        $.getJSON( "/json/monstertokens.json", function(data) {    
+        $.getJSON( "./json/monstertokens.json", function(data) {    
           $.each(data, function(i, obj) {
             monstertokens[i] = '<option value="' + obj.name + '" data-area="5ftsquare" data-audio="wav" data-image="png" data-sticky="true">' + obj.name + '</option>';
           });
@@ -170,7 +180,7 @@
         });
         
         var monsters = [];
-        $.getJSON( "/json/monsters.json", function(data) {    
+        $.getJSON( "./json/monsters.json", function(data) {    
           $.each(data, function(i, obj) {
             var challenge = obj.challenge;
             if (challenge == 0.125) challenge = '1/8';
@@ -516,50 +526,50 @@
                   if (distance > 0) {
                     if (angle > -22.5 && angle <= 22.5) {
                       // North
-                      $(target_small).css({'display':'block','left':(xs-1)*21, 'top':(ys-3)*21, 'transform':'rotate(0deg)', 'background-image':'url(/img/target_15ftcone_straight.png)'});
-                      $(target_big).css({'display':'block','left':(xs-1)*103, 'top':(ys-3)*103, 'transform':'rotate(0deg)', 'background-image':'url(/img/target_15ftcone_straight.png)'});
+                      $(target_small).css({'display':'block','left':(xs-1)*21, 'top':(ys-3)*21, 'transform':'rotate(0deg)', 'background-image':'url(./img/target_15ftcone_straight.png)'});
+                      $(target_big).css({'display':'block','left':(xs-1)*103, 'top':(ys-3)*103, 'transform':'rotate(0deg)', 'background-image':'url(./img/target_15ftcone_straight.png)'});
                       phantomTarget = {'x': xs, 'y': ys-1 };
                     }
                     else if (angle > 22.5 && angle <= 67.5) {
                       // Northeast
-                      $(target_small).css({'display':'block','left':(xs+1)*21, 'top':(ys-3)*21, 'transform':'rotate(0deg)', 'background-image':'url(/img/target_15ftcone_diag.png)'});
-                      $(target_big).css({'display':'block','left':(xs+1)*103, 'top':(ys-3)*103, 'transform':'rotate(0deg)', 'background-image':'url(/img/target_15ftcone_diag.png)'});
+                      $(target_small).css({'display':'block','left':(xs+1)*21, 'top':(ys-3)*21, 'transform':'rotate(0deg)', 'background-image':'url(./img/target_15ftcone_diag.png)'});
+                      $(target_big).css({'display':'block','left':(xs+1)*103, 'top':(ys-3)*103, 'transform':'rotate(0deg)', 'background-image':'url(./img/target_15ftcone_diag.png)'});
                       phantomTarget = {'x': xs+1, 'y': ys-1 };
                     }
                     else if (angle > 67.5 && angle <= 112.5) {
                       // East
-                      $(target_small).css({'display':'block','left':(xs+1)*21, 'top':(ys-1)*21, 'transform':'rotate(90deg)', 'background-image':'url(/img/target_15ftcone_straight.png)'});
-                      $(target_big).css({'display':'block','left':(xs+1)*103, 'top':(ys-1)*103, 'transform':'rotate(90deg)', 'background-image':'url(/img/target_15ftcone_straight.png)'});
+                      $(target_small).css({'display':'block','left':(xs+1)*21, 'top':(ys-1)*21, 'transform':'rotate(90deg)', 'background-image':'url(./img/target_15ftcone_straight.png)'});
+                      $(target_big).css({'display':'block','left':(xs+1)*103, 'top':(ys-1)*103, 'transform':'rotate(90deg)', 'background-image':'url(./img/target_15ftcone_straight.png)'});
                       phantomTarget = {'x': xs+1, 'y': ys };
                     }
                     else if (angle > 112.5 && angle <= 157.5) {
                       // Southeast
-                      $(target_small).css({'display':'block','left':(xs+1)*21, 'top':(ys+1)*21, 'transform':'rotate(90deg)', 'background-image':'url(/img/target_15ftcone_diag.png)'});
-                      $(target_big).css({'display':'block','left':(xs+1)*103, 'top':(ys+1)*103, 'transform':'rotate(90deg)', 'background-image':'url(/img/target_15ftcone_diag.png)'});
+                      $(target_small).css({'display':'block','left':(xs+1)*21, 'top':(ys+1)*21, 'transform':'rotate(90deg)', 'background-image':'url(./img/target_15ftcone_diag.png)'});
+                      $(target_big).css({'display':'block','left':(xs+1)*103, 'top':(ys+1)*103, 'transform':'rotate(90deg)', 'background-image':'url(./img/target_15ftcone_diag.png)'});
                       phantomTarget = {'x': xs+1, 'y': ys+1 };
                     }
                     else if (angle > 157.5 && angle <= 202.5) {
                       // South
-                      $(target_small).css({'display':'block','left':(xs-1)*21, 'top':(ys+1)*21, 'transform':'rotate(180deg)', 'background-image':'url(/img/target_15ftcone_straight.png)'});
-                      $(target_big).css({'display':'block','left':(xs-1)*103, 'top':(ys+1)*103, 'transform':'rotate(180deg)', 'background-image':'url(/img/target_15ftcone_straight.png)'});
+                      $(target_small).css({'display':'block','left':(xs-1)*21, 'top':(ys+1)*21, 'transform':'rotate(180deg)', 'background-image':'url(./img/target_15ftcone_straight.png)'});
+                      $(target_big).css({'display':'block','left':(xs-1)*103, 'top':(ys+1)*103, 'transform':'rotate(180deg)', 'background-image':'url(./img/target_15ftcone_straight.png)'});
                       phantomTarget = {'x': xs, 'y': ys+1 };
                     }
                     else if (angle > 202.5 && angle <= 247.5) {
                       // Southwest
-                      $(target_small).css({'display':'block','left':(xs-3)*21, 'top':(ys+1)*21, 'transform':'rotate(180deg)', 'background-image':'url(/img/target_15ftcone_diag.png)'});
-                      $(target_big).css({'display':'block','left':(xs-3)*103, 'top':(ys+1)*103, 'transform':'rotate(180deg)', 'background-image':'url(/img/target_15ftcone_diag.png)'});
+                      $(target_small).css({'display':'block','left':(xs-3)*21, 'top':(ys+1)*21, 'transform':'rotate(180deg)', 'background-image':'url(./img/target_15ftcone_diag.png)'});
+                      $(target_big).css({'display':'block','left':(xs-3)*103, 'top':(ys+1)*103, 'transform':'rotate(180deg)', 'background-image':'url(./img/target_15ftcone_diag.png)'});
                       phantomTarget = {'x': xs-1, 'y': ys+1 };
                     }
                     else if ((angle > 247.5 && angle <= 270) || (angle > -90 && angle <= -67.5)) {
                       // West
-                      $(target_small).css({'display':'block','left':(xs-3)*21, 'top':(ys-1)*21, 'transform':'rotate(270deg)', 'background-image':'url(/img/target_15ftcone_straight.png)'});
-                      $(target_big).css({'display':'block','left':(xs-3)*103, 'top':(ys-1)*103, 'transform':'rotate(270deg)', 'background-image':'url(/img/target_15ftcone_straight.png)'});
+                      $(target_small).css({'display':'block','left':(xs-3)*21, 'top':(ys-1)*21, 'transform':'rotate(270deg)', 'background-image':'url(./img/target_15ftcone_straight.png)'});
+                      $(target_big).css({'display':'block','left':(xs-3)*103, 'top':(ys-1)*103, 'transform':'rotate(270deg)', 'background-image':'url(./img/target_15ftcone_straight.png)'});
                       phantomTarget = {'x': xs-1, 'y': ys };
                     }
                     else if (angle > -67.5 && angle <= -22.5) {
                       // Northwest
-                      $(target_small).css({'display':'block','left':(xs-3)*21, 'top':(ys-3)*21, 'transform':'rotate(270deg)', 'background-image':'url(/img/target_15ftcone_diag.png)'});
-                      $(target_big).css({'display':'block','left':(xs-3)*103, 'top':(ys-3)*103, 'transform':'rotate(270deg)', 'background-image':'url(/img/target_15ftcone_diag.png)'});
+                      $(target_small).css({'display':'block','left':(xs-3)*21, 'top':(ys-3)*21, 'transform':'rotate(270deg)', 'background-image':'url(./img/target_15ftcone_diag.png)'});
+                      $(target_big).css({'display':'block','left':(xs-3)*103, 'top':(ys-3)*103, 'transform':'rotate(270deg)', 'background-image':'url(./img/target_15ftcone_diag.png)'});
                       phantomTarget = {'x': xs-1, 'y': ys-1 };
                     }
                     return;
@@ -638,9 +648,9 @@
         if ($(effect).attr('data-image')) {
           if (effect.val() != '') {
             var effectImage = new Image();
-            var imageSrc = '/img/' + effectType + '_' + effect.val() + '.' + effect.data('image');
+            var imageSrc = './img/' + effectType + '_' + effect.val() + '.' + effect.data('image');
             if (effectType == 'monster') {
-              imageSrc = '/img/monsters/' + encodeURI(effect.val()) + '.' + effect.data('image');
+              imageSrc = './img/monsters/' + encodeURI(effect.val()) + '.' + effect.data('image');
             }
             effectImage.src = imageSrc;
           }
@@ -664,41 +674,41 @@
         // Handle target size (5ft square is default)
         if ($(effect).attr('data-area')) {
           if (effect.data('area')=='5ftsquare') {
-            $(target_small).css({'width':'21px','height':'21px', 'background-image':'url(/img/target_5ftsquare.png)'});
-            $(target_big).css({'width':'103px','height':'103px', 'background-image':'url(/img/target_5ftsquare.png)'});
+            $(target_small).css({'width':'21px','height':'21px', 'background-image':'url(./img/target_5ftsquare.png)'});
+            $(target_big).css({'width':'103px','height':'103px', 'background-image':'url(./img/target_5ftsquare.png)'});
           }
           else if (effect.data('area')=='10ftsquare') {
-            $(target_small).css({'width':'42px','height':'42px', 'background-image':'url(/img/target_10ftsquare.png)'});
-            $(target_big).css({'width':'206px','height':'206x', 'background-image':'url(/img/target_10ftsquare.png)'});
+            $(target_small).css({'width':'42px','height':'42px', 'background-image':'url(./img/target_10ftsquare.png)'});
+            $(target_big).css({'width':'206px','height':'206x', 'background-image':'url(./img/target_10ftsquare.png)'});
           }
           else if (effect.data('area')=='15ftsquare') {
-            $(target_small).css({'width':'63px','height':'63px', 'background-image':'url(/img/target_15ftsquare.png)'});
-            $(target_big).css({'width':'309px','height':'309px', 'background-image':'url(/img/target_15ftsquare.png)'});        
+            $(target_small).css({'width':'63px','height':'63px', 'background-image':'url(./img/target_15ftsquare.png)'});
+            $(target_big).css({'width':'309px','height':'309px', 'background-image':'url(./img/target_15ftsquare.png)'});
           }
           else if (effect.data('area')=='15ftcone') {
-            $(target_small).css({'width':'63px','height':'63px', 'background-image':'url(/img/target_15ftcone_diag.png)'});
-            $(target_big).css({'width':'309px','height':'309px', 'background-image':'url(/img/target_15ftcone_straight.png)'});
+            $(target_small).css({'width':'63px','height':'63px', 'background-image':'url(./img/target_15ftcone_diag.png)'});
+            $(target_big).css({'width':'309px','height':'309px', 'background-image':'url(./img/target_15ftcone_straight.png)'});
           }
           else if (effect.data('area')=='20ftsquare') {
-            $(target_small).css({'width':'84px','height':'84px', 'background-image':'url(/img/target_20ftsquare.png)'});
-            $(target_big).css({'width':'412px','height':'412px', 'background-image':'url(/img/target_20ftsquare.png)'});
+            $(target_small).css({'width':'84px','height':'84px', 'background-image':'url(./img/target_20ftsquare.png)'});
+            $(target_big).css({'width':'412px','height':'412px', 'background-image':'url(./img/target_20ftsquare.png)'});
           }
           else if (effect.data('area')=='20ftcircle') {
-            $(target_small).css({'width':'84px','height':'84px', 'background-image':'url(/img/target_20ftcircle.png)'});
-            $(target_big).css({'width':'412px','height':'412px', 'background-image':'url(/img/target_20ftcircle.png)'});
+            $(target_small).css({'width':'84px','height':'84px', 'background-image':'url(./img/target_20ftcircle.png)'});
+            $(target_big).css({'width':'412px','height':'412px', 'background-image':'url(./img/target_20ftcircle.png)'});
           }
           else if (effect.data('area')=='20ftcone') {
-            $(target_small).css({'width':'84px','height':'84px', 'background-image':'url(/img/target_5ftsquare.png)'});
-            $(target_big).css({'width':'412px','height':'412px', 'background-image':'url(/img/target_5ftsquare.png)'});
+            $(target_small).css({'width':'84px','height':'84px', 'background-image':'url(./img/target_5ftsquare.png)'});
+            $(target_big).css({'width':'412px','height':'412px', 'background-image':'url(./img/target_5ftsquare.png)'});
           }
           else if (effect.data('area')=='20ftline') {
-            $(target_small).css({'width':'84px','height':'84px', 'background-image':'url(/img/target_20ftline.png)'});
-            $(target_big).css({'width':'412px','height':'412px', 'background-image':'url(/img/target_20ftline.png)'});
+            $(target_small).css({'width':'84px','height':'84px', 'background-image':'url(./img/target_20ftline.png)'});
+            $(target_big).css({'width':'412px','height':'412px', 'background-image':'url(./img/target_20ftline.png)'});
           }
         }
         else {
-          $(target_small).css({'width':'21px','height':'21px', 'background-image':'url(/img/target_5ftsquare.png)'});
-          $(target_big).css({'width':'103px','height':'103px', 'background-image':'url(/img/target_5ftsquare.png)'});
+          $(target_small).css({'width':'21px','height':'21px', 'background-image':'url(./img/target_5ftsquare.png)'});
+          $(target_big).css({'width':'103px','height':'103px', 'background-image':'url(./img/target_5ftsquare.png)'});
         }
       }
 
@@ -774,9 +784,9 @@
               smalldiv.appendTo('.map_small');
             
               // Start animation when both image and audio are loaded
-              var imageSrc = '/img/' + effectType + '_' + effect.val() + '.' + effect.data('image');
+              var imageSrc = './img/' + effectType + '_' + effect.val() + '.' + effect.data('image');
               if (effectType == 'monster') {
-                imageSrc = '/img/monsters/' + encodeURI(effect.val()) + '.' + effect.data('image');
+                imageSrc = './img/monsters/' + encodeURI(effect.val()) + '.' + effect.data('image');
               }
               $(bigdiv).css('background-image','url(' + imageSrc + ')');
               $(smalldiv).css({'left':x*21,'top':y*21,'background-image':'url(' + imageSrc + ')'});
@@ -1374,7 +1384,7 @@
             </div>
           </div>
           <div class="mapmovebox">
-            <img id="mapmove" src="/img/mapmove.png" border="0" width="80" height="80" orgWidth="80" orgHeight="80" usemap="#mapmovemap" alt="" />
+            <img id="mapmove" src="./img/mapmove.png" border="0" width="80" height="80" orgWidth="80" orgHeight="80" usemap="#mapmovemap" alt="" />
             <map name="mapmovemap" id="mapmovemap">
               <area class="imagemap" id="up" alt="up" title="up" href="javascript:void(0);" onclick="moveMap('up');" shape="rect" coords="25,0,54,31" target="_self" />
               <area class="imagemap" id="right" alt="right" title="right" href="javascript:void(0);" onclick="moveMap('right');" shape="rect" coords="52,26,78,55" target="_self" />
