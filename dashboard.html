@@ -91,7 +91,7 @@
         }
         if (magicMap.location.href === 'about:blank') {
           magicMap.close();
-          magicMap = window.open('./magicmap.html','MagicMap','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=3840,height=2160,left=100,top=100');
+          magicMap = window.open('./magicmap','MagicMap','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=3840,height=2160,left=100,top=100');
           console.log('load');
           $(magicMap).on('load', function() {
             console.log('magicmapload');
@@ -107,7 +107,7 @@
       function doOnMagicMapLoad() {
         
         // Load json
-        if (localStorage.getItem("dashboard") === null) {
+        if (!localStorage.getItem("dashboard")) {
           $.getJSON( "./json/dashboard.json", function(dashboardJSON ) {
               console.log('loaded');
               loadDropdowns(dashboardJSON);
@@ -121,7 +121,9 @@
           dashboardJSON = JSON.parse(dashboardJSON);
           loadDropdowns(dashboardJSON);
         }
-        localStorage.setItem("dashboard", JSON.stringify(dashboardJSON));
+        if (dashboardJSON && JSON.stringify(dashboardJSON)) {
+          localStorage.setItem("dashboard", JSON.stringify(dashboardJSON));
+        }
         
         // Set source and targets
         source_big = $(magicMap.document).contents().find('.source_big');
