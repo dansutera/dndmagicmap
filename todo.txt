@@ -1,5 +1,6 @@
 TO DO
 -----
+-1) testing
 0) Add rotation to adjustment
 1) Hook up firebase for accounts (fb?) / JSON storage
 2) Full admin screen instead of JSON for customize
