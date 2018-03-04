@@ -1,25 +1,24 @@
 TO DO
 -----
-1) Github
+1) Login - Firebase
 
-2) Login - Firebase
+2) JSON storage - Firebase
 
-3) JSON storage - Firebase
-
-4) Casting:
+3) Casting / Convert to Viu.js
    > Dual Login (Quality of the TV browser)
    > Chrome Cast
    > Wire
+
+4) TV Sizes (1920x1080)
+
+5) Map store for dynamic dungeons & mike schley
+   > Use zip package validation
    
-5) Area Selection / Zooming
+6) Enable video maps https://www.patreon.com/dynamicdungeons
 
-6) TV Sizes (1920x1080)
-
-7) Enable video maps https://www.patreon.com/dynamicdungeons
-
-8) Full admin screen instead of JSON for customize
-
-9) Map store for dynamic dungeons & mike schley
+7) Full admin screen instead of JSON for customize
+   
+8) Drag & snap instead of arrows for map move
 
 
 LATER
@@ -28,6 +27,7 @@ LATER
 - Make a video guide
 - Add 90deg rotation
   https://stackoverflow.com/questions/5087420/how-to-rotate-the-background-image-in-the-container
+- Add zoom feature (edge case)
 - Try youtube links for vids
 - Fog of war double circle with sizing
 - Allow super zoom by going to 125, 150, 175, 200, 225, 250, 275, 300
