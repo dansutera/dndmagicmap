@@ -33,6 +33,7 @@
   { "type": "image", "name": "Player: Marie", "duration": "10500", "url_image": "http://dndmagicmap.com/img/player_marie.png", "url_audio": "http://dndmagicmap.com/media/player_marie.wav" },
   { "type": "image", "name": "Player: Titania", "duration": "10500", "url_image": "http://dndmagicmap.com/img/player_titania.png", "url_audio": "http://dndmagicmap.com/media/player_titania.wav" },
   { "type": "image", "name": "Player: Zero", "duration": "10000", "url_image": "http://dndmagicmap.com/img/player_zero.png", "url_audio": "http://dndmagicmap.com/media/player_zero.wav" },
+  { "type": "image", "name": "TOA: Title", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_title.jpg", "url_audio": "http://dndmagicmap.com/media/soundtrack_jungle.m4a" },
   { "type": "image", "name": "LMOP: Phandalin", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_phandalin.jpg", "url_audio": "http://dndmagicmap.com/media/soundtrack_town.mp3" },
   { "type": "image", "name": "LMOP: Tavern", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_tavern.png", "url_audio": "http://dndmagicmap.com/media/soundtrack_tavern.mp3"},
   { "type": "image", "name": "LMOP: WEC Start", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_waveechoentrance.jpg" },
