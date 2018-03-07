@@ -40,6 +40,7 @@
   { "type": "image", "name": "LMOP: WEC Forge", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_waveechoforge.jpg" },
   { "type": "image", "name": "LMOP: WEC Paths", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_waveechopaths.jpg" },
   { "type": "image", "name": "LMOP: Venomfrang", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_venomfang.jpg" },
+  { "type": "image", "name": "LMOP: Portal", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_portal.jpg" },
   { "type": "image", "name": "Special: Wanted", "duration": "-1", "url_image": "http://dndmagicmap.com/img/special_wantedposter.png" },
   { "type": "image", "name": "Special: Drow", "duration": "-1", "url_image": "http://dndmagicmap.com/img/special_drow.png" },
   { "type": "image", "name": "Special: Nundro", "duration": "-1", "url_image": "http://dndmagicmap.com/img/special_nundro.png" },
