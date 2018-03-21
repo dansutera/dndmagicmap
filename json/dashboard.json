@@ -7,8 +7,8 @@
   { "type": "map", "name": "LMOP: Wave Echo Cave", "scale":"85.3", "offset_x":"-15", "offset_y":"-10", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/lmop_waveecho_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/lmop_waveecho_player.jpg" },
   { "type": "map", "name": "LMOP: Thundertree", "scale":"62.7", "offset_x":"-6", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/lmop_thundertree_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/lmop_thundertree_player.jpg" },
   { "type": "map", "name": "TOA: Chult", "scale":"100", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_chult_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_chult_player.jpg" },
-  { "type": "map", "name": "TOA: Port Nyanzaru", "scale":"100", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_portnyanzaru_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_portnyanzaru_player.jpg" },
-  { "type": "map", "name": "TOA: Merchant Villa", "scale":"100", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_villa_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_villa_player.jpg" },
+  { "type": "map", "name": "TOA: Port Nyanzaru", "scale":"150", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_portnyanzaru_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_portnyanzaru_player.jpg" },
+  { "type": "map", "name": "TOA: Merchant Villa", "scale":"250", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_villa_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_villa_player.jpg" },
   
   { "type": "music", "name": "Thunderstruck", "url": "http://dndmagicmap.com/media/soundtrack_thunderstruck.m4a" },
   { "type": "music", "name": "Hells Bells", "url": "http://dndmagicmap.com/media/soundtrack_hellsbells.m4a" },
