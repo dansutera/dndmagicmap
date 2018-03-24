@@ -229,15 +229,15 @@
         else 
         {  
           // Get divs
-          var mapvideo_small = $('#mapvideo_small');
           var mapvideosource_small = $('#mapvideosource_small');
-          var mapvideo_big = $(magicMap.document).contents().find('#mapvideo_big');
+          var mapvideo_small = $('#mapvideo_small');
           var mapvideosource_big = $(magicMap.document).contents().find('#mapvideosource_big');
+          var mapvideo_big = $(magicMap.document).contents().find('#mapvideo_big');  
           
           // Load video
           $(mapvideosource_small).attr('src', newMap.data('urldm'));
-          $(mapvideosource_big).attr('src', newMap.data('urlplayer'));
           $(mapvideo_small)[0].load();
+          $(mapvideosource_big).attr('src', newMap.data('urlplayer'));
           $(mapvideo_big)[0].load();
           
           // Pause music and play video
