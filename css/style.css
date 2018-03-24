@@ -56,6 +56,7 @@ a.bluebuttonadjusted:visited { color:#FFF !important; text-decoration:none; }
 .fullscreen { width:3840px; height:2160px; overflow:hidden; position:relative; z-index:1; }
 .mapcontainer_big { width:3811px; height:2163px; overflow:hidden; position:relative; }
 .map_big { position:relative; left:-103px; top:-103px; background-position:103px 103px; background-repeat:no-repeat; }
+.videomap_big { display:none; }
 .mapsquare_big { float:left; position:relative; z-index:10; height:103px; width:103px; background-color:rgba(0,0,0,1); background-size:103px 103px; }
 .grid_big { width:102px; height:102px; border-right:1px solid rgba(0,0,0,0.4); border-bottom:1px solid rgba(0,0,0,0.4); }
 .grid_biggreen { width:102px; height:102px; border-right:1px solid #B3FF99; border-bottom:1px solid #B3FF99; }

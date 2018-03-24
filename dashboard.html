@@ -224,8 +224,6 @@
         var smallMap = newMap.data('urldm');
         var bigMap = newMap.data('urlplayer');
         if ($('select#select_mapversion option:checked').val() == 'dm') bigMap = smallMap;
-        $('.map_small').css('background-image','url(' + smallMap + ')');
-        $(magicMap.document).contents().find('.map_big').css('background-image','url(' + bigMap + ')');
         
         // Prepop adjusters
         $('select#select_mapscale').val(newMap.data('scale'));
@@ -235,6 +233,10 @@
         
         var newWidth, newHeight, numSquaresWide, numSquaresHigh;
         $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', function() {
+          
+          // Set background images
+          $('.map_small').css('background-image','url(' + smallMap + ')');
+          $(magicMap.document).contents().find('.map_big').css('background-image','url(' + bigMap + ')');
           
           // Detect and set map dimensions 
           newWidth = this.width;

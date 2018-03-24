@@ -1,5 +1,7 @@
 TO DO
 -----
+0) Enable video maps https://www.patreon.com/dynamicdungeons
+
 1) Login - Firebase
    > Fix application bug
 
@@ -14,16 +16,13 @@ TO DO
 
 5) Map store for dynamic dungeons & mike schley
    > Use zip package validation
-   
-6) Enable video maps https://www.patreon.com/dynamicdungeons
 
-7) Full admin screen instead of JSON for customize
+6) Full admin screen instead of JSON for customize
    
-8) Drag & snap instead of arrows for map move
-
 
 LATER
 ------------
+- Drag & snap instead of arrows for map move
 - Check map loading speed
 - Presets on map with json and autorecord system
 - Make a video guide
