@@ -219,7 +219,22 @@
         var range_big = $(magicMap.document).contents().find('.range_big');
         $(range_big).css({'display':'none'});
         
-        // Change map image sources
+        // Load phantoms to get size
+        var newMap = $('select#select_choosemap option:checked');
+        if (newMap.data('maptype') == 'image') 
+        {
+          // Load phantom image
+          $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', { maptype: "image" }, finishChangeMap);
+        }
+        else 
+        {  
+          // Load phantom video
+        }
+      }
+      
+      function finishChangeMap(event) {
+        
+        // Map sources
         var newMap = $('select#select_choosemap option:checked');
         var smallMap = newMap.data('urldm');
         var bigMap = newMap.data('urlplayer');
@@ -231,24 +246,11 @@
         $('select#select_mapy').val(newMap.data('mapy'));
         $('select#select_maprotate').val(newMap.data('maprotate'));
         
-        if (newMap.data('maptype') == 'image') 
-        {
-          // Load phantom image
-          $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', { maptype: "image", smallMap: smallMap, bigMap: bigMap }, finishChangeMap);
-        }
-        else 
-        {  
-          // Load phantom video
-        }
-      }
-      
-      function finishChangeMap(event) {
-        
         if (event.data.maptype == 'image') 
         {
           // Set background images
-          $('.map_small').css('background-image','url(' + event.data.smallMap + ')');
-          $(magicMap.document).contents().find('.map_big').css('background-image','url(' + event.data.bigMap + ')');
+          $('.map_small').css('background-image','url(' + smallMap + ')');
+          $(magicMap.document).contents().find('.map_big').css('background-image','url(' + bigMap + ')');
         }
         else 
         {
