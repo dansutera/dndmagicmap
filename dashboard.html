@@ -231,108 +231,105 @@
         $('select#select_mapy').val(newMap.data('mapy'));
         $('select#select_maprotate').val(newMap.data('maprotate'));
         
-        if (newMap.data('maptype') == 'image') {
-        
+        if (newMap.data('maptype') == 'image') 
+        {
           // Load phantom image
-          $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', function() {
-
-            // Set background images
-            $('.map_small').css('background-image','url(' + smallMap + ')');
-            $(magicMap.document).contents().find('.map_big').css('background-image','url(' + bigMap + ')');
-
-            // Finish changing map
-            finishChangeMap();
-            
-            // Detect and set map dimensions 
-            var newWidth = this.width;
-            var newHeight = this.height;
-            var origin_small, origin_big;
-            if ($(newMap).attr('data-maprotate')) {
-              if (newMap.data('maprotate') == '90') {
-                newWidth = this.height;
-                newHeight = this.width;
-                origin_small = '21px 21px 0px';
-                origin_big = '103px 103px 0px';
-              }
-              $('.map_small').css({'transform':'rotate(' + newMap.data('maprotate') + 'deg)','transform-origin':origin_small});
-              $(magicMap.document).contents().find('.map_big').css({'transform':'rotate(' + newMap.data('maprotate') + 'deg)','transform-origin':origin_big});
-            }
-            if ($(newMap).attr('data-scale')) {
-              newWidth = newWidth*parseFloat(newMap.data('scale'))/100;
-              newHeight = newHeight*parseFloat(newMap.data('scale'))/100;
-            }
-            var offsetx = parseInt(newMap.data('mapx'));
-            var offsety = parseInt(newMap.data('mapy'));
-            var numSquaresWide = Math.floor(newWidth/103) + 2;
-            var numSquaresHigh = Math.floor(newHeight/103) + 2;
-            $('.map_small').css({'background-position': + (21 + offsetx/4.9047) + 'px ' + (21 + offsety/4.9047) + 'px', 'width': (numSquaresWide*21) + 'px', 'height': (numSquaresHigh*21) + 'px', 'background-size': newWidth/4.9047 + 'px ' + newHeight/4.9047 + 'px'});
-            $(magicMap.document).contents().find('.map_big').css({'background-position': + (103 + offsetx) + 'px ' + (103 + offsety) + 'px', 'width': (numSquaresWide*103) + 'px', 'height': (numSquaresHigh*103) + 'px', 'background-size': newWidth + 'px ' + newHeight + 'px'});
-            $('#phantomImage').remove();
-
-            // Set up crafty canvas
-            $('.splashparticlesscreen_small').css({'width':numSquaresWide*21, 'height':numSquaresHigh*103});
-            $('#splashparticles_small').css({'width':numSquaresWide*21, 'height':numSquaresHigh*103});
-            if (!craftyInit) {
-              Crafty.init(numSquaresWide*21, numSquaresHigh*21, $('#splashparticles_small')[0]);
-              craftyInit = true;
-            }
-            else {
-              Crafty.viewport.width = numSquaresWide*21;
-              Crafty.viewport.height = numSquaresHigh*21;
-              Crafty.viewport.reload();
-            }
-            magicMap.initializeCanvas(numSquaresWide, numSquaresHigh);
-
-            // Reset squares
-            magicMap.initializeSquares(numSquaresWide, numSquaresHigh);
-            $('.mapsquare_small').remove();
-            for(j = 0; j < numSquaresHigh; j++) {
-              for(i = 1; i <= numSquaresWide; i++) {
-                $('.map_small').append('<div class="mapsquare_small" onmouseover="overSquare(this);" onmousedown="mapClick(this);" id="' + alphabet.charAt(j) + '_' + i + '"></div>');
-              }
-            }   
-
-            if (typeof adjusting !== 'undefined' && adjusting == true) {
-              // Handle grids
-              $('.mapsquare_small').addClass('grid_smallgreen');
-              $(magicMap.document).contents().find('.mapsquare_big').addClass('grid_biggreen');
-            }
-            else {
-              // Handle grids
-              $('.mapcontrols_bottom').show();
-              $('.gridadjuster').hide();
-              $('.mapsquare_small').removeClass('grid_smallgreen');
-              $(magicMap.document).contents().find('.mapsquare_big').removeClass('grid_biggreen');
-              toggleGrid(); 
-
-              // Reset map position
-              $('.map_small').css({'top':'-21px','left':'-21px'});
-              $(magicMap.document).contents().find('.map_big').css({'top':'-103px','left':'-103px'});
-            }
-
-            // Clear fog if specified
-            if ($('select#select_fogoption option:checked').val() == 'clear') {
-              $('.mapsquare_small').css('background-color', 'rgba(0,0,0,0)');
-              $(magicMap.document).contents().find('.mapsquare_big').css('background-color', 'rgba(0,0,0,0)');
-            }
-
-            // Switch back to fog of war action
-            $('#fogofwar').prop('checked',true).change();
-          });
+          $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', { maptype: "image" }, finishChangeMqp);
         }
-        else {
-          
+        else 
+        {  
           // Load phantom video
-          
-          // Set video source 
-          
-          // Finish changing map
-          finishChangeMap();
         }
       }
       
-      function finishChangeMap() {
-      
+      function finishChangeMap(event) {
+        
+        if (event.data.maptype == 'image') 
+        {
+          // Set background images
+          $('.map_small').css('background-image','url(' + smallMap + ')');
+          $(magicMap.document).contents().find('.map_big').css('background-image','url(' + bigMap + ')');
+        }
+        else 
+        {
+          // Set video source
+        }
+
+        // Detect and set map dimensions 
+        var newWidth = this.width;
+        var newHeight = this.height;
+        var origin_small, origin_big;
+        if ($(newMap).attr('data-maprotate')) {
+          if (newMap.data('maprotate') == '90') {
+            newWidth = this.height;
+            newHeight = this.width;
+            origin_small = '21px 21px 0px';
+            origin_big = '103px 103px 0px';
+          }
+          $('.map_small').css({'transform':'rotate(' + newMap.data('maprotate') + 'deg)','transform-origin':origin_small});
+          $(magicMap.document).contents().find('.map_big').css({'transform':'rotate(' + newMap.data('maprotate') + 'deg)','transform-origin':origin_big});
+        }
+        if ($(newMap).attr('data-scale')) {
+          newWidth = newWidth*parseFloat(newMap.data('scale'))/100;
+          newHeight = newHeight*parseFloat(newMap.data('scale'))/100;
+        }
+        var offsetx = parseInt(newMap.data('mapx'));
+        var offsety = parseInt(newMap.data('mapy'));
+        var numSquaresWide = Math.floor(newWidth/103) + 2;
+        var numSquaresHigh = Math.floor(newHeight/103) + 2;
+        $('.map_small').css({'background-position': + (21 + offsetx/4.9047) + 'px ' + (21 + offsety/4.9047) + 'px', 'width': (numSquaresWide*21) + 'px', 'height': (numSquaresHigh*21) + 'px', 'background-size': newWidth/4.9047 + 'px ' + newHeight/4.9047 + 'px'});
+        $(magicMap.document).contents().find('.map_big').css({'background-position': + (103 + offsetx) + 'px ' + (103 + offsety) + 'px', 'width': (numSquaresWide*103) + 'px', 'height': (numSquaresHigh*103) + 'px', 'background-size': newWidth + 'px ' + newHeight + 'px'});
+        $('#phantomImage').remove();
+
+        // Set up crafty canvas
+        $('.splashparticlesscreen_small').css({'width':numSquaresWide*21, 'height':numSquaresHigh*103});
+        $('#splashparticles_small').css({'width':numSquaresWide*21, 'height':numSquaresHigh*103});
+        if (!craftyInit) {
+          Crafty.init(numSquaresWide*21, numSquaresHigh*21, $('#splashparticles_small')[0]);
+          craftyInit = true;
+        }
+        else {
+          Crafty.viewport.width = numSquaresWide*21;
+          Crafty.viewport.height = numSquaresHigh*21;
+          Crafty.viewport.reload();
+        }
+        magicMap.initializeCanvas(numSquaresWide, numSquaresHigh);
+
+        // Reset squares
+        magicMap.initializeSquares(numSquaresWide, numSquaresHigh);
+        $('.mapsquare_small').remove();
+        for(j = 0; j < numSquaresHigh; j++) {
+          for(i = 1; i <= numSquaresWide; i++) {
+            $('.map_small').append('<div class="mapsquare_small" onmouseover="overSquare(this);" onmousedown="mapClick(this);" id="' + alphabet.charAt(j) + '_' + i + '"></div>');
+          }
+        }   
+
+        if (typeof adjusting !== 'undefined' && adjusting == true) {
+          // Handle grids
+          $('.mapsquare_small').addClass('grid_smallgreen');
+          $(magicMap.document).contents().find('.mapsquare_big').addClass('grid_biggreen');
+        }
+        else {
+          // Handle grids
+          $('.mapcontrols_bottom').show();
+          $('.gridadjuster').hide();
+          $('.mapsquare_small').removeClass('grid_smallgreen');
+          $(magicMap.document).contents().find('.mapsquare_big').removeClass('grid_biggreen');
+          toggleGrid(); 
+
+          // Reset map position
+          $('.map_small').css({'top':'-21px','left':'-21px'});
+          $(magicMap.document).contents().find('.map_big').css({'top':'-103px','left':'-103px'});
+        }
+
+        // Clear fog if specified
+        if ($('select#select_fogoption option:checked').val() == 'clear') {
+          $('.mapsquare_small').css('background-color', 'rgba(0,0,0,0)');
+          $(magicMap.document).contents().find('.mapsquare_big').css('background-color', 'rgba(0,0,0,0)');
+        }
+
+        // Switch back to fog of war action
+        $('#fogofwar').prop('checked',true).change();
       }
       
       function openMapAdjuster() {
