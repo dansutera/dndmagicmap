@@ -234,7 +234,7 @@
         if (newMap.data('maptype') == 'image') 
         {
           // Load phantom image
-          $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', { maptype: "image" }, finishChangeMap);
+          $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', { maptype: "image", smallMap: smallMap, bigMap: bigMap }, finishChangeMap);
         }
         else 
         {  
@@ -247,8 +247,8 @@
         if (event.data.maptype == 'image') 
         {
           // Set background images
-          $('.map_small').css('background-image','url(' + smallMap + ')');
-          $(magicMap.document).contents().find('.map_big').css('background-image','url(' + bigMap + ')');
+          $('.map_small').css('background-image','url(' + event.data.smallMap + ')');
+          $(magicMap.document).contents().find('.map_big').css('background-image','url(' + event.data.bigMap + ')');
         }
         else 
         {
