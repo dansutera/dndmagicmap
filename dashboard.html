@@ -228,7 +228,28 @@
         }
         else 
         {  
-          // Load phantom video
+          // Get divs
+          var mapvideo_small = $(magicMap.document).contents().find('#mapvideo_small');
+          var mapvideosource_small = $(magicMap.document).contents().find('#mapvideosource_small');
+          var mapvideo_big = $(magicMap.document).contents().find('#mapvideo_big');
+          var mapvideosource_big = $(magicMap.document).contents().find('#mapvideosource_big');
+          
+          // Load video
+          $(mapvideosource_small).attr('src', newMap.data('urldm'));
+          $(mapvideosource_big).attr('src', newMap.data('urlplayer'));
+          $(mapvideo_small)[0].load();
+          $(mapvideo_big)[0].load();
+          
+          // Pause music and play video
+          $(mapvideo_big).on('canplaythrough', function(){ 
+            $(mapvideo_small).css('display', 'block');
+            $(mapvideo_big).css('display', 'block');
+            if (typeof backgroundAudio !== 'undefined') backgroundAudio.pause();
+            $(mapvideo_small)[0].volume = 0;
+            $(mapvideo_big)[0].volume = 1;
+            $(mapvideo_small)[0].play();
+            $(mapvideo_big)[0].play();
+          });
         }
       }
       
@@ -1351,6 +1372,9 @@
           <div class="closeinstructions">Click to Close</div>
         </div>
         <div class="map_small" onmouseout="mapOut();">
+          <video id="mapvideo_small">
+            <source id="mapvideosource_small" type="video/mp4">
+          </video>
           <div class="splashparticlesscreen_small">
             <div id="splashparticles_small"></div>
           </div>
