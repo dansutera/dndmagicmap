@@ -234,7 +234,7 @@
         if (newMap.data('maptype') == 'image') 
         {
           // Load phantom image
-          $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', { maptype: "image" }, finishChangeMqp);
+          $('<img id="phantomImage" src="' + newMap.data('urlplayer') + '" />').appendTo('body').on('load', { maptype: "image" }, finishChangeMap);
         }
         else 
         {  
