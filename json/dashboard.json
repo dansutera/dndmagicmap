@@ -9,7 +9,7 @@
   { "type": "map", "maptype": "image", "name": "TOA: Chult", "scale":"100", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_chult_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_chult_player.jpg" },
   { "type": "map", "maptype": "image", "name": "TOA: Port Nyanzaru", "scale":"300", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_portnyanzaru_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_portnyanzaru_player.jpg" },
   { "type": "map", "maptype": "image", "name": "TOA: Merchant Villa", "scale":"268.1", "offset_x":"-86", "offset_y":"-42", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_villa_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_villa_player.jpg" },
-  { "type": "map", "maptype": "video", "name": "Video Test", "scale":"100", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/ddtest.m4v", "url_player": "http://dndmagicmap.com/img/maps/dd_test.m4v" },
+  { "type": "map", "maptype": "video", "name": "Video Test", "scale":"100", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/dd_test.m4v", "url_player": "http://dndmagicmap.com/img/maps/dd_test.m4v" },
   
   { "type": "music", "name": "Thunderstruck", "url": "http://dndmagicmap.com/media/soundtrack_thunderstruck.m4a" },
   { "type": "music", "name": "Hells Bells", "url": "http://dndmagicmap.com/media/soundtrack_hellsbells.m4a" },
