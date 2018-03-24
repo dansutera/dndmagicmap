@@ -1,6 +1,7 @@
 TO DO
 -----
 1) Login - Firebase
+   > Fix application bug
 
 2) JSON storage - Firebase
 
@@ -23,6 +24,7 @@ TO DO
 
 LATER
 ------------
+- Check map loading speed
 - Presets on map with json and autorecord system
 - Make a video guide
 - Add 90deg rotation
