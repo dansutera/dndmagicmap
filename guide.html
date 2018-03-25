@@ -32,6 +32,27 @@
       gtag('js', new Date());
       gtag('config', 'UA-114216700-1');
     </script> 
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyAqKCnFuKutaPQhq7Aj1ZxRJLZAg922R80",
+        authDomain: "dndmagicmap.firebaseapp.com",
+        databaseURL: "https://dndmagicmap.firebaseio.com",
+        projectId: "dndmagicmap",
+        storageBucket: "dndmagicmap.appspot.com",
+        messagingSenderId: "515412884380"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        // Handle login
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (!user) 
+            window.location.replace('./');
+          }
+        });
+      });
   </head>
   <body>
     <div class="hero-top">

@@ -26,11 +26,14 @@
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114216700-1"></script>
-
-    <!-- firebase initialization script -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-114216700-1');
+    </script>
     <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
     <script>
-      // Initialize Firebase
       var config = {
         apiKey: "AIzaSyAqKCnFuKutaPQhq7Aj1ZxRJLZAg922R80",
         authDomain: "dndmagicmap.firebaseapp.com",
@@ -41,53 +44,23 @@
       };
       firebase.initializeApp(config);
     </script>
-    <!-- end firebase initialization script -->
-
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-114216700-1');
-    </script>
     <script type="text/javascript">
       $(document).ready(function() {
+        
+        // Login button
         var provider = new firebase.auth.GoogleAuthProvider();
-        firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL);
-
         $('.googlebutton').click(function() {
           firebase.auth().signInWithRedirect(provider);
         });
 
+        // Handle login
         firebase.auth().onAuthStateChanged(function(user) {
           if (user) {
-            console.log('firebase user: ', user);
             window.location.replace('./dashboard');
           } else {
-            // No user is signed in.
-            console.error('user is not signed in');
             $('#loading').hide();
           }
         });
-        // // TODO: Show a spinner image until getRedirectResult returns true or false
-        // firebase.auth().getRedirectResult().then(function(result) {
-        //   if (result.credential) {
-        //     // This gives you a Google Access Token. You can use it to access the Google API.
-        //     var token = result.credential.accessToken;
-        //     window.location.replace('./dashboard');
-        //   } else {
-        //     $('#loading').hide();
-        //   }
-        // }).catch(function(error) {
-        //   // Handle Errors here.
-        //   var errorCode = error.code;
-        //   var errorMessage = error.message;
-        //   // The email of the user's account used.
-        //   var email = error.email;
-        //   // The firebase.auth.AuthCredential type that was used.
-        //   var credential = error.credential;
-        //   $('#loading').hide();
-        //   // ...
-        // });
       });
     </script>
   </head>
