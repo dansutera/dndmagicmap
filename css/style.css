@@ -31,7 +31,8 @@ a.bluebuttonadjusted:visited { color:#FFF !important; text-decoration:none; }
 .logo_middle { height:265px; }
 .logo_home { display:block; background-image:url(../img/header.png); width:800px; height:265px; position: absolute; margin-left:auto; margin-right:auto; left:0; right:0; top:82px; }
 .homecontent { text-align:center; position:relative; top:-50px; }
-#launchbutton { margin-top:20px; }
+.googlebutton { transition:transform 0.1s; display:inline-block; background-image:url(../img/button_google.png); width:300px; height:55px; background-size:300px 55px; }
+.googlebutton:hover { transform:translate(1px,1px); }
 
 /* Subpages */
 .logo_subpage { display:block; background-image:url(../img/header.png); width:800px; height:180px; margin-left:auto; margin-right:auto; margin-top:-80px; }
