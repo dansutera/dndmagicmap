@@ -54,7 +54,7 @@
       $(document).ready(function() {
         // Handle login
         firebase.auth().onAuthStateChanged(function(user) {
-          if (!user) 
+          if (!user) {
             window.close();
           }
         });

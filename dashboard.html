@@ -36,6 +36,7 @@
       gtag('config', 'UA-114216700-1');
     </script>
     <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
     <script>
       var config = {
         apiKey: "AIzaSyAqKCnFuKutaPQhq7Aj1ZxRJLZAg922R80",
@@ -92,59 +93,61 @@
         water:{startColour:[15,15,150,1],startColourRandom:[5,5,25,.25],endColour:[10,10,100,0],endColourRandom:[10,10,25,0]}
       };
 
+      var firebaseUser = null;
+      var db = firebase.firestore();
+      var configurationsRef = db.collection("configurations");
+
       $(document).ready(function() {
 
         // Handle login
         firebase.auth().onAuthStateChanged(function(user) {
-          if (user) {
-            // Load Json
-          } else {
+          if (!user) {
             window.location.replace('./');
+          } else {
+            // Load magic map
+            firebaseUser = user;
+            magicMap = window.open('', 'MagicMap');
+            if (magicMap === null) {
+              $("#loading").fadeOut(500);
+              $("#notification").show(); // Popups blocked
+              return;
+            }
+            if (magicMap.location.href === 'about:blank') {
+              magicMap.close();
+              magicMap = window.open('./magicmap','MagicMap','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=3840,height=2160,left=100,top=100');
+              console.log('load');
+              $(magicMap).on('load', function() {
+                console.log('magicmapload');
+                doOnMagicMapLoad();
+              });   
+            }
+            else {
+              console.log('blank');
+              doOnMagicMapLoad();
+            }
           }
         });
         
-        // Load magic map
-        magicMap = window.open('', 'MagicMap');
-        if (magicMap === null) {
-          $("#loading").fadeOut(500);
-          $("#notification").show(); // Popups blocked
-          return;
-        }
-        if (magicMap.location.href === 'about:blank') {
-          magicMap.close();
-          magicMap = window.open('./magicmap','MagicMap','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=3840,height=2160,left=100,top=100');
-          console.log('load');
-          $(magicMap).on('load', function() {
-            console.log('magicmapload');
-            doOnMagicMapLoad();
-          });   
-        }
-        else {
-          console.log('blank');
-          doOnMagicMapLoad();
-        }
       });
       
       function doOnMagicMapLoad() {
-        
-        // Load json
-        if (!localStorage.getItem("dashboard")) {
-          $.getJSON( "./json/dashboard.json", function(dashboardJSON ) {
-              console.log('loaded');
-              loadDropdowns(dashboardJSON);
-          }, function(error) {
-              console.error(error);
-          });
-        }
-        else {
-          dashboardJSON = localStorage.getItem("dashboard");
-          while (typeof dashboardJSON === 'undefined') setTimeout(100);
-          dashboardJSON = JSON.parse(dashboardJSON);
-          loadDropdowns(dashboardJSON);
-        }
-        if (dashboardJSON && JSON.stringify(dashboardJSON)) {
-          localStorage.setItem("dashboard", JSON.stringify(dashboardJSON));
-        }
+        configurationsRef.doc(firebaseUser.uid).get().then(function(doc) {
+            if (doc.exists) {
+                loadDropdowns(doc.data().configuration);
+            } else {
+                // doc.data() will be undefined in this case
+                console.log("No such document!");
+                // TODO: Initialize with the default json 
+                $.getJSON( "./json/dashboard.json", function(dashboardJSON ) {
+                  configurationsRef.doc(firebaseUser.uid).set({
+                    configuration: dashboardJSON
+                  });
+                  loadDropdowns(dashboardJSON);
+                });
+            }
+        }).catch(function(error) {
+            console.log("Error getting document:", error);
+        });
         
         // Set source and targets
         source_big = $(magicMap.document).contents().find('.source_big');
