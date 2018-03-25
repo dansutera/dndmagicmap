@@ -32,10 +32,36 @@
       gtag('js', new Date());
       gtag('config', 'UA-114216700-1');
     </script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyAqKCnFuKutaPQhq7Aj1ZxRJLZAg922R80",
+        authDomain: "dndmagicmap.firebaseapp.com",
+        databaseURL: "https://dndmagicmap.firebaseio.com",
+        projectId: "dndmagicmap",
+        storageBucket: "dndmagicmap.appspot.com",
+        messagingSenderId: "515412884380"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script type="text/javascript">
-      function openWindows() {
-        window.location.replace('./dashboard');
-      }
+      $(document).ready(function() {
+        
+        // Login button
+        var provider = new firebase.auth.GoogleAuthProvider();
+        $('.googlebutton').click(function() {
+          firebase.auth().signInWithRedirect(provider);
+        });
+
+        // Handle login
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (user) {
+            window.location.replace('./dashboard');
+          } else {
+            $('#loading').hide();
+          }
+        });
+      });
     </script>
   </head>
   <body>
@@ -49,14 +75,17 @@
       <div class="clearfix"></div>
     </div>
     <div class="homecontent">
-      <div> 
-        TV Size: 
-        <select class="actionselect" id="select_tvsize">
-          <option value="3840x2160">3840 x 2160 px</option>
-        </select>
-        <div>(make sure popups are enabled)</div>
+      <div id="loading">
+        <div id="loading-center">
+          <div id="loading-center-absolute">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+          </div>
+        </div>
       </div>
-      <a href="#" class="button" id="launchbutton" onclick="openWindows();">LAUNCH MAGIC MAP</a>
+      <a href="#" class="googlebutton"></a>
     </div>
     <footer>
       <div class="container">

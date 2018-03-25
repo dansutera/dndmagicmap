@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="/css/font-face/entypo.css" type="text/css" />
 
     <!-- Styles  -->
-    <link rel="stylesheet" href="/css/reset.css" type="text/css" />
-    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -33,8 +33,28 @@
       gtag('js', new Date());
       gtag('config', 'UA-114216700-1');
     </script> 
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyAqKCnFuKutaPQhq7Aj1ZxRJLZAg922R80",
+        authDomain: "dndmagicmap.firebaseapp.com",
+        databaseURL: "https://dndmagicmap.firebaseio.com",
+        projectId: "dndmagicmap",
+        storageBucket: "dndmagicmap.appspot.com",
+        messagingSenderId: "515412884380"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script type="text/javascript">
       $(document).ready(function() {
+        
+        // Handle login
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (!user) 
+            window.location.replace('./');
+          }
+        });
       
         document.getElementById('savebutton').onclick = function() {
       	
