@@ -29,6 +29,23 @@
     <script src="./js/imagesloaded.js"></script>
     <script src="./js/crafty_max.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114216700-1"></script>
+
+    <!-- firebase initialization script  -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAqKCnFuKutaPQhq7Aj1ZxRJLZAg922R80",
+        authDomain: "dndmagicmap.firebaseapp.com",
+        databaseURL: "https://dndmagicmap.firebaseio.com",
+        projectId: "dndmagicmap",
+        storageBucket: "dndmagicmap.appspot.com",
+        messagingSenderId: "515412884380"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <!-- end firebase initialization script -->
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -81,6 +98,16 @@
       };
 
       $(document).ready(function() {
+
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (user) {
+            console.log('firebase user: ', user);
+          } else {
+            // No user is signed in.
+            console.error('user is not signed in');
+            window.location.replace('./');
+          }
+        });
         
         // Load magic map
         magicMap = window.open('', 'MagicMap');
