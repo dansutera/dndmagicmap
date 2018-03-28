@@ -1,27 +1,24 @@
 TO DO
 -----
-0) Enable video maps https://www.patreon.com/dynamicdungeons
+0) Change customize to a textbox with JSON
 
-1) Login - Firebase
-   > Fix application bug
+1) Enable video maps https://www.patreon.com/dynamicdungeons
 
-2) JSON storage - Firebase
+2) Fix up DB data structure
 
-3) Casting / Convert to Viu.js
-   > Dual Login (Quality of the TV browser)
-   > Chrome Cast
-   > Wire
+3) Full admin screen instead of JSON for customize
 
-4) TV Sizes (1920x1080)
-
-5) Map store for dynamic dungeons & mike schley
+4) Map store for dynamic dungeons & mike schley
    > Use zip package validation
 
-6) Full admin screen instead of JSON for customize
-   
+5) Casting / Convert to Vue.js
+      > Dual Login (Quality of the TV browser)
+      > Chrome Cast
+      > Wire
 
 LATER
 ------------
+- TV Sizes (1920x1080)
 - Drag & snap instead of arrows for map move
 - Check map loading speed
 - Presets on map with json and autorecord system
