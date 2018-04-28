@@ -67,6 +67,7 @@
   { "type": "image", "name": "TOA: Port 1", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_port1.jpg" },
   { "type": "image", "name": "TOA: Port 2", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_port2.jpg" },
   { "type": "image", "name": "TOA: Port 3", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_port3.jpg" },
+  { "type": "image", "name": "TOA: Vengeance", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_vengeance.jpg" },
   { "type": "image", "name": "LMOP: Phandalin", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_phandalin.jpg", "url_audio": "http://dndmagicmap.com/media/soundtrack_town.mp3" },
   { "type": "image", "name": "LMOP: Tavern", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_tavern.png", "url_audio": "http://dndmagicmap.com/media/soundtrack_tavern.mp3"},
   { "type": "image", "name": "LMOP: WEC Start", "duration": "-1", "url_image": "http://dndmagicmap.com/img/lmop_waveechoentrance.jpg" },
