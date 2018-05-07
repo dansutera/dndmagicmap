@@ -19,8 +19,8 @@
   { "type": "map", "maptype": "image", "name": "TOA: Heart of Ubtao", "scale":"150", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_heart_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_heart_player.jpg" },
   { "type": "map", "maptype": "image", "name": "TOA: Hrakmar", "scale":"150", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_hrak_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_hrak_player.jpg" },
   { "type": "map", "maptype": "image", "name": "TOA: Jahaka", "scale":"150", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/toa_jahaka_dm.jpg", "url_player": "http://dndmagicmap.com/img/maps/toa_jahaka_player.jpg" },
-  { "type": "map", "maptype": "image", "name": "Generic: Grid", "scale":"100", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/generic_grid.jpg", "url_player": "http://dndmagicmap.com/img/maps/generic_grid.jpg" },
-  { "type": "map", "maptype": "image", "name": "Generic: Road", "scale":"100", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/generic_road.jpg", "url_player": "http://dndmagicmap.com/img/maps/generic_road.jpg" },
+  { "type": "map", "maptype": "image", "name": "Generic: Grid", "scale":"283", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/generic_grid.jpg", "url_player": "http://dndmagicmap.com/img/maps/generic_grid.jpg" },
+  { "type": "map", "maptype": "image", "name": "Generic: Road", "scale":"80", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/generic_road.jpg", "url_player": "http://dndmagicmap.com/img/maps/generic_road.jpg" },
   { "type": "map", "maptype": "video", "name": "Video Test", "scale":"100", "offset_x":"0", "offset_y":"0", "rotate":"0", "url_dm": "http://dndmagicmap.com/img/maps/dd_test.m4v", "url_player": "http://dndmagicmap.com/img/maps/dd_test.m4v" },
   
   { "type": "music", "name": "Thunderstruck", "url": "http://dndmagicmap.com/media/soundtrack_thunderstruck.m4a" },
