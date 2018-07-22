@@ -91,6 +91,8 @@
   { "type": "image", "name": "TOA: Tomb Guardian", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_tombguardian.jpg" },
   { "type": "image", "name": "TOA: Tomb Dwarf", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_dwarf.png" },
   { "type": "image", "name": "TOA: Withers", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_withers.png" },
+  { "type": "image", "name": "TOA: Beholder", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_beholder.jpg" },
+  { "type": "image", "name": "TOA: Aboleth", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_aboleth.jpg" },
   { "type": "image", "name": "TOA: Gargoyle", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_gargoyle.png" },
   { "type": "image", "name": "TOA: Bodak", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_bodak.png" },
   { "type": "image", "name": "TOA: Artist", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_artist.png" },
