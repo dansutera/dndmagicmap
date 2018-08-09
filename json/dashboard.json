@@ -98,6 +98,7 @@
   { "type": "image", "name": "TOA: Artist", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_artist.png" },
   { "type": "image", "name": "TOA: Dolls", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_dolls.png" },
   { "type": "image", "name": "TOA: Final Door", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_door.png" },
+  { "type": "image", "name": "TOA: Papazotl", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_papazotl.jpg" },
   { "type": "image", "name": "TOA: Skeleton Keys", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_skeletonkey.png" },
   { "type": "image", "name": "TOA: Hieroglyphs", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_hiero.png" },
   { "type": "image", "name": "TOA: Chalice", "duration": "-1", "url_image": "http://dndmagicmap.com/img/toa_chalice.png" },
