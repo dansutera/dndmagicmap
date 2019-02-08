@@ -49,6 +49,7 @@
   { "type": "video", "name": "Robinhood", "url": "http://dndmagicmap.com/media/splash_robinhood.mp4" },
   { "type": "video", "name": "Direwolf", "url": "http://dndmagicmap.com/media/splash_direwolf.mp4" },
   { "type": "video", "name": "Skeletor", "url": "http://dndmagicmap.com/media/splash_skeletor.mp4" },
+  { "type": "video", "name": "Resident Evil", "url": "http://dndmagicmap.com/media/splash_evil.3gp" },
   
   { "type": "image", "name": "BattleGrid", "duration": "-1", "url_image": "http://dndmagicmap.com/img/maps/generic_biggrid.jpg" },
   { "type": "image", "name": "MagicMap Logo", "duration": "-1", "url_image": "http://dndmagicmap.com/img/logo.png", "url_audio": "http://dndmagicmap.com/media/logo.mp3" },
